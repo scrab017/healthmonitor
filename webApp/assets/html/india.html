@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Brookings India Health Monitor</title>
+  <link rel="stylesheet" type="text/css" href="../../app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        
+        /*This for the implementation of the zoomable draggable div*/
+        
+        .selected-nav {
+            background: white;
+        }
+        
+        #mydiv {
+            position: absolute;
+            opacity: .4;
+            z-index: 9;
+            background-color: #f1f1f1;
+            text-align: center;
+            border: 1px solid #d3d3d3;
+        }
+        input {
+            cursor: pointer;
+        }
+        #mydivheader {
+            padding: 10px;
+            cursor: move;
+            z-index: 10;
+            background-color: #2196F3;
+            color: #fff;
+        }
+        .non-selected-opacity {
+            opacity: 0.8;
+        }
+        /*-------This for the implementation of the zoomable draggable div-------*/
+        
+        /*Magnitude highlighting*/
+        .magnitude_highlight{
+            /*color: red;*/
+            text-decoration: underline;
+        }
+        /*---Magnitude highlighting---*/
+        
+        input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        }
+        #district_smart_search{
+            border: 0px;
+        }
+        input:focus{
+            outline: ;
+        }
+        input[type='radio']:checked:after {
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            top: -2px;
+            left: -1px;
+            position: relative;
+            background-color: #FFCF1A;
+            content: '';
+            display: inline-block;
+            visibility: visible;
+            border: 2px solid #ffa500;
+        }
+        .axis text {
+          font: 10px sans-serif;
+        }
+        .axis line, .axis path {
+          fill: none;
+          stroke: #000;
+          shape-rendering: crispEdges;
+        }
+        li{
+         cursor: default;
+        }  
+        a:hover{
+            background: #fff;
+        }
+        .dropdown-toggle:hover{
+            text-decoration:underline;
+        }
+        .STATE_DROPDOWN_SELECT:hover{
+            background: #ebebeb;
+        }
+        .CATEGORY_DROPDOWN_SELECT:hover{
+            background: #ebebeb;
+        }
+        .INDEX_CATEGORY_DROPDOWN_SELECT:hover{
+            background: #ebebeb;
+        }
+      * {box-sizing: border-box;}
+        .img-zoom-container {
+          position: relative;
+        }
+        .img-zoom-lens {
+          position: absolute;
+          border: 1px solid #d4d4d4;
+          /*set the size of the lens:*/
+          width: 40px;
+          height: 40px;
+        }
+        .img-zoom-result {
+          border: 1px solid #d4d4d4;
+          /*set the size of the result div:*/
+          width: 160px;
+          height: 160px;
+        }
+        #snackbar {
+            display: none;
+            min-width: 250px;
+            margin-left: -125px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 2px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            top: 30px;
+            font-size: 17px;
+        }
+        #snackbar.show {
+            display: block;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+        
+        @-webkit-keyframes fadein {
+            from {top: 0; opacity: 0;} 
+            to {top: 30px; opacity: 1;}
+        }
+        @keyframes fadein {
+            from {top: 0; opacity: 0;}
+            to {top: 30px; opacity: 1;}
+        }
+        @-webkit-keyframes fadeout {
+            from {top: 30px; opacity: 1;} 
+            to {top: 0; opacity: 0;}
+        }
+        @keyframes fadeout {
+            from {top: 30px; opacity: 1;}
+            to {top: 0; opacity: 0;}
+        }
+        .navigation_prop_selection_:hover{
+            background: #eee;
+            cursor: pointer;
+        }
+        #overlay {
+            position: fixed;
+            margin-top:4%;
+            display: block;
+            width: 100%;
+            height: 100%;
+            z-index: 730;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255,255,255);
+            cursor: pointer;
+        }
+        
+        #India:hover{
+            background:none;
+        }
+        #India_state:hover{
+            background:none;
+        }
+        .dropdown-toggle{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body style="font-family:;">
+        <div class="container-fluid main-wrapper " >
+        <div class="row" style="margin-top:0%;margin-bottom:0%;padding-top:10px;">
+        <div class="col-sm-12 map-section"> 
+            <div class="row" style="">
+                <ul class="nav navbar-nav s_nav_tab" style="background:#FFCF1A;width:100%;">
+                <li style="display:none;">
+                    <a class="dropdown-toggle" data-toggle="dropdown" style="color:#77777B;">Region<b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level">
+                        <!--<li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown">India</a>
+                            <ul class="dropdown-menu">
+                                <li><a id="India" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">District Wise</a></li>
+                                <li><a id="India_state" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">State Wise</a></li>
+                            </ul>
+                        </li>-->
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-toggle" data-toggle="dropdown" >States</a>
+                            <ul class="dropdown-menu list-var" size="6">
+                                <li><a id="Andhra Pradesh" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Andhra Pradesh *</a></li>
+                                <li><a id="Arunanchal Pradesh" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Arunachal Pradesh</a></li>
+                                 <li><a id="Assam" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Assam</a></li>
+                                  <li><a id="Bihar" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Bihar</a></li>
+                                  <li><a id="Chhattisgarh" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Chhattisgarh</a></li>
+                                  <li><a id="NCT of Delhi" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Delhi</a></li>
+                                  <li><a id="Goa" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Goa</a></li>
+                                 <li><a id="Gujarat" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Gujarat</a></li>
+                                  <li><a id="Haryana" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Haryana</a></li>
+                                  <li><a id="Himachal Pradesh" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Himachal Pradesh</a></li>
+                                  <li><a id="Jammu & Kashmir" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Jammu and Kashmir</a></li>
+                                  <li><a id="Jharkhand" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Jharkhand</a></li>
+                                  <li><a id="Karnataka" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Karnataka</a></li>
+                                 <li><a id="Kerala" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Kerala</a></li>
+                                 <li><a id="Madhya Pradesh" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Madhya Pradesh</a></li>
+                                  <li><a id="Maharashtra" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Maharashtra</a></li>
+                                   <li><a id="Manipur" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Manipur</a></li>
+                                 <li><a id="Meghalaya" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Meghalaya</a></li>
+                                   <li><a id="Mizoram" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Mizoram</a></li>
+                                  <li><a id="Nagaland" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Nagaland</a></li>
+                                   <li><a id="Odisha" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Odisha</a></li>
+                                   <li><a id="Punjab" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Punjab</a></li>
+                                 <li><a id="Rajasthan" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Rajasthan</a></li>
+                                  <li><a id="Sikkim" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Sikkim</a></li>
+                                  <li><a id="Tamil Nadu" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Tamil Nadu</a></li>
+                                  <!--<li><a id="Telangana" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Telangana</a></li>-->
+                                  <li><a id="Tripura" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Tripura</a></li>
+                                 <li><a id="Uttar Pradesh" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Uttar Pradesh</a></li>
+                                  <li><a id="Uttarakhand" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">Uttarakhand</a></li>
+                                 <li><a id="West Bengal" class="STATE_DROPDOWN_SELECT navigation_prop_selection_">West Bengal</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="H_C_D" data-toggle="dropdown" style="color:#77777B;">Public Health Infrastructure<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="SC_AVL" name="SC" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Sub Centres</a></li>
+                        <li><a id="PHC_AVL" name="PHC" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Primary Health Centres</a></li>
+                        <li><a id="CHC_AVL" name="CHC" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Community Health Centres</a></li>
+                        <li><a id="SDH_AVL" name="SDH" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Sub Divisional Hospital</a></li>
+                        <li><a id="DH_AVL" name="DH" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >District Hospital</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="MATERNAL_H_F" data-toggle="dropdown" style="color:#77777B;">Maternal Health<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="p_safe_delivery" name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Safe deliveries to total reported deliveries</a></li>
+                        <li><a id="p_inst_delivery"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Institutional deliveries to total reported deliveries</a></li>
+                         <li><a id="p_jsy_anc" name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >JSY to total ANC registrations</a></li>
+                        <li><a id="p_1trimester_anc" name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >First trimester registrations to total ANC registrations</a></li>
+                        <li><a id="p_3chkups_anc"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Pregnant women received 3 ANC check-ups to total ANC registrations</a></li>
+                        <li><a id="p_100ifa_anc"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Pregnant women given 100 IFA to total ANC registrations</a></li>
+                        <li><a id="p_tt2_anc"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Pregnant women received TT2 or Booster to total ANC registrations</a></li>
+                        <li><a id="p_w48h_chkup_delivery"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Post-Partum check-up in &lt;48 hrs of delivery to total reported deliveries</a></li>
+                        <li><a id="p_b48h14d_chkup_delivery"  name="MET_CARE" class="CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" >Post-Partum check-up within 2-14 days to total reported deliveries</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="INDEX" data-toggle="dropdown" style="color:#77777B;">Health Indices<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="INFRA_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" style="text-decoration:none;">Infrastructure Index</a></li>
+                        <li><a id="MET_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" style="text-decoration:none;">Maternal Health Index</a></li>
+                        <li><a id="CHILD_CARE_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" style="text-decoration:none;">Child Health Index</a></li>
+                        <li><a id="COMM_DIS_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" style="text-decoration:none;">Communicable Diseases Index</a></li>
+                        <li><a id="NON_COMM_DIS_INDEX" class="INDEX_CATEGORY_DROPDOWN_SELECT navigation_prop_selection_ display_c" style="text-decoration:none;">Non-Communicable Diseases Index</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="NFHS_C" data-toggle="dropdown" style="color:#77777B;">Vitals<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="bmi" class="NFHS_CONDITION_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="CONDITION" style="text-decoration:none;">BMI</a></li>
+                        <li><a id="glucose" class="NFHS_CONDITION_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="CONDITION" style="text-decoration:none;">Glucose</a></li>
+                        <li><a id="hemoglobin" class="NFHS_CONDITION_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="CONDITION" style="text-decoration:none;">Haemoglobin (only Female)</a></li>
+                        <li><a id="bp" class="NFHS_CONDITION_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="CONDITION" style="text-decoration:none;">Blood Pressure</a></li>
+                        <!--<li><a id="cbp" class="NFHS_CONDITION_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="CONDITION" style="text-decoration:none;">Cuff BP</a></li>-->
+                    </ul>
+                </li>
+                <li>
+                    <a class="dropdown-toggle display_c top_nav" id="NFHS_D" data-toggle="dropdown" style="color:#77777B;">Diseases<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="cancer" class="NFHS_DISEASE_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="DISEASE" style="text-decoration:none;">Cancer</a></li>
+                        <li><a id="asthma" class="NFHS_DISEASE_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="DISEASE" style="text-decoration:none;">Asthma</a></li>
+                        <li><a id="diabetes" class="NFHS_DISEASE_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="DISEASE" style="text-decoration:none;">Diabetes</a></li>
+                        <li><a id="thyroid" class="NFHS_DISEASE_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="DISEASE" style="text-decoration:none;">Thyroid</a></li>
+                        <li><a id="heart" class="NFHS_DISEASE_DROPDOWN_SELECT navigation_prop_selection_ display_c" name="DISEASE" style="text-decoration:none;">Heart</a></li>
+                    </ul>
+                </li>
+                <!--<li>
+                    <div class="search-container form-group" style="height:30px;" id="google_translate_element"></div><script type="text/javascript">
+                        function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                        }
+                   </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                </li>-->
+            </ul>
+                <hr style="width:100%;">
+        </div><!--/.nav-collapse -->
+        </div>
+        </div>
+        </div>
+
+
+                    
+        
+      <div class="row" style="margin-left:1%;border-bottom:2px solid #eee;">
+          <div id="overlay" onclick="disableLoader()">
+            <div style="width:100%;height:100%;">
+                <i class="fa fa-spinner fa-spin" style="font-size:24px;margin-left:50%;margin-top:17%;"></i>
+                <h4 style="margin-left:47%;"  >Loading Map...</h4>
+                <!--<h4 style="margin-left:45%;" id="loading_details" >Preparing Map (0%)..</h4>-->
+            </div>
+          </div>
+          <!--<div class="row display_off" id="index_tabs">
+            <ul class="nav navbar-nav h_nav_tab" >
+                <li><a id="BIG_STATE_INX" class="INDEX_STATE_SELECT display_c" style="color:#77777B;">Big States</a></li>
+                <li><a id="SMALL_STATE_INX" class="INDEX_STATE_SELECT display_c" style="color:#77777B;" >Small States</a></li>
+                <li><a id="UT_STATE_INX" class="INDEX_STATE_SELECT display_c" style="color:#77777B;">Union Territories</a></li>
+            </ul> 
+            <hr style="width:100%;">
+          </div>-->  
+          <!--<div class="row display_off" id="non_index_tabs">
+                <ul class="nav navbar-nav s_nav_tab" >
+                    <li><a id="AVL" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Availability</a></li>
+                    <li><a id="ACCESSIBILITY" class="   SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Distance</a></li>
+                    <li><a id="HR" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Human Resources</a></li>
+                    <li><a id="INFRA" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Infrastructure</a></li>
+                    <li><a id="SUPPLY" class="SUB_CATEGORY_DROPDOWN_SELECT display_c" style="color:#77777B;">Supply</a></li>
+                </ul>   
+              <hr style="width:100%;">      
+           </div>-->
+          
+           <!-- These are index tabs -->
+           <!--<div class="row">
+               <div class="col-sm-12 " id="hmis_indexes_1" style="height:60px;margin-top:-3%;margin-bottom:-2%;display:none;background:;font-size:11px;">
+                          <div style="width:49%;float: left;border-right:2px solid #eee;">
+                               <form>
+                                  <div style="float:left;display:;"><input type="radio" style="margin:10px;cursor:pointer;" class="SUB_CATEGORY_DROPDOWN_SELECT" name="region" value="ru" text="Availability" id="AVL"> Availability</div>
+                                  <div style="float:left;display:;"><input type="radio" style="margin:10px;cursor:pointer;" class="SUB_CATEGORY_DROPDOWN_SELECT" name="region" value="ur" text="Distance" id="ACCESSIBILITY"> Distance</div>
+                                  <div id="HR_RADIO" style="float:left;display:;"><input type="radio" style="margin:10px;cursor:pointer;" class="SUB_CATEGORY_DROPDOWN_SELECT" name="region" value="all" text="Human Resources" id="HR" > Human Resources</div>
+                                  <div id="INFRA_RADIO" style="float:left;display:;"><input type="radio" style="margin:10px;cursor:pointer;" class="SUB_CATEGORY_DROPDOWN_SELECT" name="region" value="all" text="Infrastructure" id="INFRA" > Infrastructure</div>
+                                  <div id="SUPPLY_RADIO"  style="float:left;display:;"><input type="radio" style="margin:10px;cursor:pointer;" class="SUB_CATEGORY_DROPDOWN_SELECT" name="region" value="all" text="Supply" id="SUPPLY" > Supply</div>
+                               </form>  
+                           </div>
+                          
+                           <div class="col-sm-5" style="font-size:20px;">
+                             <span style="" class="main_nfhs_cat_head"></span>
+                           </div>
+                 </div>
+           </div>-->
+          
+           <!-- This one is for the HMIS Tabs and indexes -->
+           <div class="row">
+               <div class="col-sm-12 " id="hmis_selection_1" style="height:60px;margin-top:-3%;margin-bottom:-2%;display:none;background:;font-size:11px;">
+                          <!--<div class="col-sm-2">-->
+                          <div id="category_div_for_header" style="width:49%;float: left;border-right:2px solid #eee;">
+                               <form>
+                                  <div id="AVL" class="SUB_CATEGORY_DROPDOWN_SELECT" style="float:left;margin:10px;cursor:pointer;display:;" name="availability"><input type="radio" name="availability" value="ru" class="SUB_CATEGORY_DROPDOWN_SELECT_RADIO" text="Availability" id="AVL_RADIO"> Availability</div>
+                                  <div id="ACCESSIBILITY" class="SUB_CATEGORY_DROPDOWN_SELECT"  style="float:left;margin:10px;cursor:pointer;display:;" name="accessibility"><input type="radio" name="accessibility" value="ur" class="SUB_CATEGORY_DROPDOWN_SELECT_RADIO" text="Distance" id="ACCESSIBILITY_RADIO" > Distance</div>
+                                  <div id="HR" class="SUB_CATEGORY_DROPDOWN_SELECT"  style="float:left;margin:10px;cursor:pointer;display:;" name="hr"><input type="radio" name="hr" value="all" class="SUB_CATEGORY_DROPDOWN_SELECT_RADIO" text="Human Resources" id="HR_RADIO"> Human Resources</div>
+                                  <div  id="INFRA" class="SUB_CATEGORY_DROPDOWN_SELECT"  style="float:left;margin:10px;cursor:pointer;display:;" name="infra"><input type="radio" name="infra" value="all" class="SUB_CATEGORY_DROPDOWN_SELECT_RADIO" text="Infrastructure" id="INFRA_RADIO"> Infrastructure</div>
+                                  <div  id="SUPPLY" class="SUB_CATEGORY_DROPDOWN_SELECT"  style="float:left;margin:10px;cursor:pointer;display:;" name="supply"><input type="radio" name="supply" value="all" class="SUB_CATEGORY_DROPDOWN_SELECT_RADIO" text="Supply" id="SUPPLY_RADIO" > Supply</div>
+                               </form>  
+                           </div>
+                           <div class="col-sm-5" id="dummy_div_for_header" style="display:none;height:70%;font-size:27px;border-right:2px solid #eee;margin-left:7.3%;">
+                           </div>
+                           <div class="col-sm-5" style="font-size:20px;">
+                             <span style="" id="main_hmis_cat_head"></span>
+                           </div>
+                 </div>
+           </div>
+          
+          <!-- This one is for the NFHS Tabs and indexes -->
+          <div class="row">
+               <div class="col-sm-12 " id="nfhs_selection" style="height:60px;margin-top:-3%;margin-bottom:-2%;display:none;background:;font-size:11px;">
+                           <!--<div class="col-sm-2">-->
+                          <div style="width:15%;float: left;">
+                               <span style="font-weight: bold;margin:10px;">Area</span>
+                               <form>
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="region" value="ru" text="Rural" id="ru"> Rural
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="region" value="ur" text="Urban" id="ur"> Urban
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="region" value="all" text="Both" id="all_region" > Both
+                               </form>  
+                           </div>
+                           <div style="width:18%;float: left;display: ;" id="gender_select">
+                           <!--<div class="col-sm-2" style="display: ;" id="gender_select">-->
+                               <span style="font-weight: bold;margin:10px;" >Gender</span>
+                               <form>
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="gender" value="ma" text="Male" id="ma"> Male
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="gender" value="fe"  text="Female" id="fe"> Female
+                                  <!--<input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="gender" value="all" text="Both" id="all_gender"> Both-->
+                               </form> 
+                           </div>
+                           <div style="width:18%;float: left;display: ;" id="maternity_select">
+                           <!--<div class="col-sm-2" style="display:none;" id="maternity_select">-->
+                               <span style="font-weight: bold;margin:10px;">Female</span>
+                               <form>
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="maternity" value="pw" text="Pregnant" id="pw"> Pregnant
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="maternity" value="npw" text="Non Pregnant" id="npw"> Non Pregnant
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="maternity" value="fe" text="Both" id="all_mat" checked="true"> Both
+                               </form> 
+                           </div>
+                           <div style="width:16%;float: left;display: ;border-right:2px solid #eee;" id="data_category_select">
+                           <!--<div class="col-sm-2" style="display:;border-right:2px solid #eee;" id="data_category_select">-->
+                               <span style="font-weight: bold;margin:10px;display:" id="distributed_by_head">Distribution By</span>
+                               <form id="distributed_by_list">
+                                  <input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="division" value="1" text="Condition" id="nfhs_cond"> Condition
+                                  <span id="income_group_dist" style="display:;"><input type="radio" style="margin:3px;cursor:pointer;" class="NFHS_RADIO_SELECT" name="division" value="0" text="Income" id="nfhs_inc"> Income Group</span>
+                               </form> 
+                               <!--<div style="height:40px;width:2px;background:#eee;float:right;"></div>-->
+                            </div>
+                           <div class="col-sm-5" id="category_head" style="font-size:20px;">
+                             <span style="display:block;" class="main_nfhs_cat_head"></span>
+                           </div>
+                    </div>
+            </div>
+      </div>
+      <!-- <div>
+            <h2 class="title" id='main-head' style="margin-left:1%;font-size:25px;width:50%;text-align:center;">Generating Map...</h2>
+      </div>-->
+      <div class="row" style="height:40px;">
+          <div class="col-sm-6" style="height:100%;">
+              <div class="row" style="margin-top:2%;margin-left:2%;cursor:pointer;">
+                  <div class="col-sm-4" >
+                      <div style="color: #FFCF1A;display:none;" id="back_to_india_map">
+                          <i class="fa fa-angle-left" style="font-size:24px;font-weight:bold;"></i> <span style="text-decoration: underline;">Back to India Map</span>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                  </div>
+                  <div class="col-sm-5" style="color:#888;cursor:pointer;font-size:12px;">
+                       <div id="map_view">
+                           <div>Map View</div>
+                           <form>
+                              <div id="India" class="STATE_DROPDOWN_SELECT navigation_prop_selection_" style="float:left;margin-right:10px;"><input id="India_dist_radio_button" type="radio" > District</div>
+                              <div id="India_state" class="STATE_DROPDOWN_SELECT navigation_prop_selection_" style="float:left;margin-right:10px;"><input id="India_state_radio_button" type="radio" > State</div>
+                           </form> 
+                       </div>
+                   </div>
+                  
+              </div>
+          </div>
+      </div>
+      <div class="row" style="margin-top:20px;">
+          
+          <!--<div id="mydiv" style="display: ;position:absolute;z-index:1200;height:70px;width:70px;">
+            </div>-->
+        <div class="col-sm-6" id="loader_screen" style="display:none;margin-top:10%;padding-left:20%;display:;float:left;position:relative;z-index:620;text-align:center;">
+            
+            <i class="fa fa-spinner fa-spin" style="font-size:24px;margin-left:10%;"></i>
+            <h4>Loading Map...</h4>
+          
+        </div>
+    
+        <div class="col-sm-6" id="India-district-chart-area" style="display:none;float:left;position:relative;z-index:600;border-right: 2px solid #ddd;">
+            <!--This is the India District chart plotting area -->
+            
+        </div>
+        <div class="col-sm-6" id="India-state-chart-area" style="display:none;float:left;position:relative;z-index:400;border-right:2px solid #eee;">
+            <!--This is the India State chart plotting area -->
+            
+        </div>
+        <div class="col-sm-6" id="chart-area" style="display:;float:left;position:relative;z-index:500;border-right:2px solid #eee;">
+            <!--This is the chart plotting area -->
+            
+        </div>
+        
+        <div id="comming_soon" class="contd" >Work in progress... </div>
+          
+        <div class="col-sm-6 map-detail-section display_off" style="margin-top:-3%;" id="table-area">
+            
+            <table class="table table-fixed table-striped">
+            <thead>
+                  <tr>
+                    <th class="col-xs-4">State / UT</th>
+                      <th class="col-xs-2" ><center>Quantity</center></th>
+                      <th class="col-xs-2"><center>Quality</center></th>
+                    <th class="col-xs-2">Infrastructure</th>s
+                    <th class="col-xs-2">Ranking</th>
+                  </tr>
+            </thead>
+            <tbody id="index_data">
+
+            </tbody>
+          </table>
+          <div class="table_content">Health Infrastructure Index = Health Infrastructure Quantity Index x Health Infrastructure Quality Index</div>    
+         
+          </div>  
+        <div class="col-sm-6 map-detail-section"  id="nfhs_sunburst" style="display:none;">
+            
+            <!--<div id='main-head' style="margin-left:1%;font-size:20px;width:100%;text-align:start;margin-bottom:-5%;">Generating Map...</div>-->
+            <div id='main-head-box' style="margin-left:1%;font-size:20px;width:100%;text-align:start;margin-bottom:-2%;height:30px;">
+                
+                <span id='main-head'>Generating Map...</span><i class="fa fa-search" aria-hidden="true" style="margin-left:10px;cursor:pointer;color:#FFC107;" id="alternate_state_select"></i>
+                
+            </div>
+            <div id="state_district_selection_box" style="margin-left:1%;font-size:20px;width:100%;text-align:start;margin-bottom:-2%;display:none;height:30px;">
+                
+                <div class="dropdown-toggle" data-toggle="dropdown" style="color:#77777B;text-decoration:none;"><span>
+                    <input type="text" id="district_smart_search" autofocus placeholder="Enter district/state name..."> <i class="fa fa-check-square" aria-hidden="true" style="margin-left:10px;cursor:pointer;color:#FFC107;" id="alternate_header_select"></i>
+                </span></div>
+                <ul class="dropdown-menu list-var" id="district_smart_search_result" size="6" style=" height:auto;margin-top:-37%;margin-left:3%;">
+                </ul>
+            </div>
+            <div style="width:70%;height:1px;background:#eee;margin-top:3.5%; margin-bottom:-3%; cursor: "></div>
+            <!-- Health Data container -->
+            <div class="row" id="sunburst" style="padding:20px;display:none;">
+                    <div class="row">
+                        <div class="col-sm-12" >
+                            <div class="MAGNITUDE_HEADER row" value="1" id="magnitude_1_div" style="display:none;cursor:pointer;background:;opacity:0.9;">
+                                <!-- This is for the data-->
+                                <div  class="col-sm-6" id="magnitude_1_sub_div" >
+                                    <div class="arrow_indicator" id="arrow_1" style="display:none;background:#fff; font-size:36px;float:left;margin-left:-22px;color:#eee;margin-top:15px;">
+                                        <i class="fa fa-caret-right" style="font-size:28px;"></i>
+                                    </div>
+                                    <div value="1" style="font-size:17px;margin:0.2%;cursor:pointer;" id="magnitude_1_name">High Glucose Level</div>
+                                    <div style="font-size:12px;margin:0%;">Population Percentage</div>
+                                    <div style="font-size:25px;margin-top:-2%;" id="magnitude_1_percent">65%</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div style="display:;" class="col-sm-5 NFHS_QUINTLIE" id="nfhs_healthy"> 
+                                    <div class="INCOME_QUINTILE_HEADER" style="font-size:10px;margin-bottom:2%;margin-top:8%;">Income Quintile Distribution</div>
+                                    <div value="1" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#41709a;" id="magnitude_1_quintile_1"></div>
+                                    <div value="1" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#679dae;" id="magnitude_1_quintile_2"></div>
+                                    <div value="1" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#85beb5;" id="magnitude_1_quintile_3"></div>
+                                    <div value="1" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#9dcba3;" id="magnitude_1_quintile_4"></div>
+                                    <div value="1" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#c3d5b1;" id="magnitude_1_quintile_5"></div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12" >
+                            <div class="MAGNITUDE_HEADER row" value="2" id="magnitude_2_div" style="display:none;cursor:pointer;opacity:0.9;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-6" id="magnitude_2_sub_div">
+                                    <div class="arrow_indicator" id="arrow_2" style="display:none;background:#fff; font-size:36px;float:left;margin-left:-22px;color:#eee;margin-top:15px;">
+                                        <i class="fa fa-caret-right" style="font-size:28px;"></i>
+                                    </div>
+                                    <div value="2"  style="font-size:17px;margin:0.2%;cursor:pointer;" id="magnitude_2_name">High Glucose Level</div>
+                                    <div style="font-size:12px;margin:0%;">Population Percentage</div>
+                                    <div style="font-size:25px;margin-top:-2%;" id="magnitude_2_percent">65%</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div style="display:;" class="col-sm-5 NFHS_QUINTLIE" id="nfhs_healthy"> 
+                                    <div class="INCOME_QUINTILE_HEADER"  style="font-size:10px;margin-bottom:2%;margin-top:8%;">Income Quintile Distribution</div>
+                                    <div value="2" class="QUINTILE_DIVISION" style="width:70%;height:6px;background:#41709a;" id="magnitude_2_quintile_1"></div>
+                                    <div value="2" class="QUINTILE_DIVISION" style="width:30%;height:6px;background:#679dae;" id="magnitude_2_quintile_2"></div>
+                                    <div value="2" class="QUINTILE_DIVISION" style="width:60%;height:6px;background:#85beb5;" id="magnitude_2_quintile_3"></div>
+                                    <div value="2" class="QUINTILE_DIVISION" style="width:50%;height:6px;background:#9dcba3;" id="magnitude_2_quintile_4"></div>
+                                    <div value="2" class="QUINTILE_DIVISION" style="width:10%;height:6px;background:#c3d5b1;" id="magnitude_2_quintile_5"></div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12" >
+                            <div class="MAGNITUDE_HEADER row" value="3"  id="magnitude_3_div" style="display:none;cursor:pointer;opacity:0.9;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-6" id="magnitude_3_sub_div">
+                                    <div class="arrow_indicator" id="arrow_3" style="display:none;background:#fff; font-size:36px;float:left;margin-left:-22px;color:#eee;margin-top:15px;">
+                                        <i class="fa fa-caret-right" style="font-size:28px;" ></i>
+                                    </div>
+                                    <div value="3"  style="font-size:17px;margin:0.2%;cursor:pointer;" id="magnitude_3_name">High Glucose Level</div>
+                                    <div style="font-size:12px;margin:0%;">Population Percentage</div>
+                                    <div style="font-size:25px;margin-top:-2%;" id="magnitude_3_percent">65%</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div style="display:;" class="col-sm-5 NFHS_QUINTLIE" id="nfhs_healthy"> 
+                                    <div class="INCOME_QUINTILE_HEADER"  value="3" style="font-size:10px;margin-bottom:2%;margin-top:8%;">Income Quintile Distribution</div>
+                                    <div value="3" class="QUINTILE_DIVISION" style="width:70%;height:6px;background:#41709a;" id="magnitude_3_quintile_1"></div>
+                                    <div value="3" class="QUINTILE_DIVISION" style="width:30%;height:6px;background:#679dae;" id="magnitude_3_quintile_2"></div>
+                                    <div value="3" class="QUINTILE_DIVISION" style="width:60%;height:6px;background:#85beb5;" id="magnitude_3_quintile_3"></div>
+                                    <div value="3" class="QUINTILE_DIVISION" style="width:50%;height:6px;background:#9dcba3;" id="magnitude_3_quintile_4"></div>
+                                    <div value="3" class="QUINTILE_DIVISION" style="width:10%;height:6px;background:#c3d5b1;" id="magnitude_3_quintile_5"></div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12" >
+                            <div class="MAGNITUDE_HEADER row" value="4"  id="magnitude_4_div" style="display:none;cursor:pointer;opacity:0.9;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-6" id="magnitude_4_sub_div">
+                                    <div class="arrow_indicator" id="arrow_4" style="display:none;background:#fff; font-size:36px;float:left;margin-left:-22px;color:#eee;margin-top:15px;">
+                                        <i class="fa fa-caret-right" style="font-size:28px;" ></i>
+                                    </div>
+                                    <div value="4"  style="font-size:17px;margin:0.2%;cursor:pointer;" id="magnitude_4_name">High Glucose Level</div>
+                                    <div style="font-size:12px;margin:0%;">Population Percentage</div>
+                                    <div style="font-size:25px;margin-top:-2%;" id="magnitude_4_percent">65%</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div style="display:;" class="col-sm-5 NFHS_QUINTLIE" id="nfhs_healthy"> 
+                                    <div class="INCOME_QUINTILE_HEADER"  style="font-size:10px;margin-bottom:2%;margin-top:8%;">Income Quintile Distribution</div>
+                                    <div value="4" class="QUINTILE_DIVISION" style="width:70%;height:6px;background:#41709a;" id="magnitude_4_quintile_1"></div>
+                                    <div value="4" class="QUINTILE_DIVISION" style="width:30%;height:6px;background:#679dae;" id="magnitude_4_quintile_2"></div>
+                                    <div value="4" class="QUINTILE_DIVISION" style="width:60%;height:6px;background:#85beb5;" id="magnitude_4_quintile_3"></div>
+                                    <div value="4" class="QUINTILE_DIVISION" style="width:50%;height:6px;background:#9dcba3;" id="magnitude_4_quintile_4"></div>
+                                    <div value="4" class="QUINTILE_DIVISION" style="width:10%;height:6px;background:#c3d5b1;" id="magnitude_4_quintile_5"></div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12" >
+                            <div class="MAGNITUDE_HEADER row" value="5" id="magnitude_5_div" style="display:none;cursor:pointer;opacity:0.9;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-6" id="magnitude_5_sub_div">
+                                    <div class="arrow_indicator" id="arrow_5" style="display:none;background:#fff; font-size:36px;float:left;margin-left:-22px;color:#eee;margin-top:15px;">
+                                        <i class="fa fa-caret-right" style="font-size:28px;" ></i>
+                                    </div>
+                                    <div value="5"  style="font-size:17px;margin:0.2%;cursor:pointer;" id="magnitude_5_name">High Glucose Level</div>
+                                    <div style="font-size:12px;margin:0%;">Population Percentage</div>
+                                    <div style="font-size:25px;margin-top:-2%;" id="magnitude_5_percent">65%</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div style="display:;" class="col-sm-5 NFHS_QUINTLIE" id="nfhs_healthy"> 
+                                    <div class="INCOME_QUINTILE_HEADER"  style="font-size:10px;margin-bottom:2%;margin-top:8%;">Income Quintile Distribution</div>
+                                    <div value="5" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#41709a;" id="magnitude_5_quintile_1"></div>
+                                    <div value="5" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#679dae;" id="magnitude_5_quintile_2"></div>
+                                    <div value="5" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#85beb5;" id="magnitude_5_quintile_3"></div>
+                                    <div value="5" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#9dcba3;" id="magnitude_5_quintile_4"></div>
+                                    <div value="5" class="QUINTILE_DIVISION" style="width:0%;height:6px;background:#c3d5b1;" id="magnitude_5_quintile_5"></div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;"></div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                </div>
+                                 
+                                <div class="col-sm-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- /Health Data container -->
+            
+            <!-- Quintile Data Container -->
+            <div class="row" id="quintile_container" style="padding:20px;display:none;">
+                    <div class="row">
+                        <div class="col-sm-12" >
+                            <div class="row" id="magnitude_1_div" style="display:;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-12">
+                                    <div class="MAGNITUDE_HEADER" value="1" style="font-size:17px;margin:0.2%;cursor:pointer;font-size:15px;" id="magnitude_1_name">Poorest</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div class="col-sm-10" style="margin-top:1%;">
+                                    <div id="quintile_bar_1_1" style="display:none;font-size:12px;height:20px;width:20%;background:#f2bfa4;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_1_2" style="display:none;font-size:12px;height:20px;width:20%;background:#abd1ac;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_1_3" style="display:none;font-size:12px;height:20px;width:20%;background:#e27e7e;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_1_4" style="display:none;font-size:12px;height:20px;width:20%;background:#fc6b6b;color:white;text-align:center;float: left;">0%</div>
+                                    <div id="quintile_bar_1_5" style="display:none;font-size:12px;height:20px;width:20%;background:#ff0c0c;color:white;text-align:center;float: left;">0%</div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;margin-top:2%;"></div>
+                            </div>
+                            <div class="row" id="magnitude_1_div" style="display:;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-12">
+                                    <div class="MAGNITUDE_HEADER" value="1" style="font-size:17px;margin:0.2%;cursor:pointer;font-size:15px;" id="magnitude_1_name">Poor</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div class="col-sm-10" style="margin-top:1%;">
+                                    <div id="quintile_bar_2_1" style="display:none;font-size:12px;height:20px;width:20%;background:#f2bfa4;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_2_2" style="display:none;font-size:12px;height:20px;width:20%;background:#abd1ac;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_2_3" style="display:none;font-size:12px;height:20px;width:20%;background:#e27e7e;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_2_4" style="display:none;font-size:12px;height:20px;width:20%;background:#fc6b6b;color:white;text-align:center;float: left;">0%</div>
+                                    <div id="quintile_bar_2_5" style="display:none;font-size:12px;height:20px;width:20%;background:#ff0c0c;color:white;text-align:center;float: left;">0%</div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;margin-top:2%;"></div>
+                            </div>
+                            <div class="row" id="magnitude_1_div" style="display:;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-12">
+                                    <div class="MAGNITUDE_HEADER" value="1" style="font-size:17px;margin:0.2%;cursor:pointer;font-size:15px;" id="magnitude_1_name">Rich</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div class="col-sm-10" style="margin-top:1%;">
+                                    <div id="quintile_bar_3_1" style="display:none;font-size:12px;height:20px;width:20%;background:#f2bfa4;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_3_2" style="display:none;font-size:12px;height:20px;width:20%;background:#abd1ac;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_3_3" style="display:none;font-size:12px;height:20px;width:20%;background:#e27e7e;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_3_4" style="display:none;font-size:12px;height:20px;width:20%;background:#fc6b6b;color:white;text-align:center;float: left;">0%</div>
+                                    <div id="quintile_bar_3_5" style="display:none;font-size:12px;height:20px;width:20%;background:#ff0c0c;color:white;text-align:center;float: left;">0%</div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;margin-top:2%;"></div>
+                            </div>
+                            <div class="row" id="magnitude_1_div" style="display:;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-12">
+                                    <div class="MAGNITUDE_HEADER" value="1" style="font-size:17px;margin:0.2%;cursor:pointer;font-size:15px;" id="magnitude_1_name">Richer</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div class="col-sm-10" style="margin-top:1%;">
+                                    <div id="quintile_bar_4_1" style="display:none;font-size:12px;height:20px;width:20%;background:#f2bfa4;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_4_2" style="display:none;font-size:12px;height:20px;width:20%;background:#abd1ac;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_4_3" style="display:none;font-size:12px;height:20px;width:20%;background:#e27e7e;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_4_4" style="display:none;font-size:12px;height:20px;width:20%;background:#fc6b6b;color:white;text-align:center;float: left;">0%</div>
+                                    <div id="quintile_bar_4_5" style="display:none;font-size:12px;height:20px;width:20%;background:#ff0c0c;color:white;text-align:center;float: left;">20%</div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;margin-top:2%;"></div>
+                            </div>
+                            <div class="row" id="magnitude_1_div" style="display:;">
+                                <!-- This is for the data-->
+                                <div class="col-sm-12">
+                                    <div class="MAGNITUDE_HEADER" value="1" style="font-size:17px;margin:0.2%;cursor:pointer;font-size:15px;" id="magnitude_1_name">Richest</div>
+                                </div>
+                                <!-- This is for the bar graphs-->
+                                <div class="col-sm-10" style="margin-top:1%;">
+                                    <div id="quintile_bar_5_1" style="display:none;font-size:12px;height:20px;width:20%;background:#f2bfa4;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_5_2" style="display:none;font-size:12px;height:20px;width:20%;background:#abd1ac;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_5_3" style="display:none;font-size:12px;height:20px;width:20%;background:#e27e7e;color:white;text-align:center;float: left;">20%</div>
+                                    <div id="quintile_bar_5_4" style="display:none;font-size:12px;height:20px;width:20%;background:#fc6b6b;color:white;text-align:center;float: left;">0%</div>
+                                    <div id="quintile_bar_5_5" style="display:none;font-size:12px;height:20px;width:20%;background:#ff0c0c;color:white;text-align:center;float: left;">0%</div>
+                                </div>
+                                <div class="col-sm-10" style="height:1px;background:#eee;margin-top:2%;"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- /Quintile Data Container -->
+         </div>
+          
+        <div class="col-sm-6 map-detail-section display_off" style="padding-right:2%;display:none;" id="tooltip-area" > 
+            <div style="width:100%;padding-top:20%; text-align: center;display:block;" id="progress_num_div">
+                <div>
+                    <i class="fa fa-spinner fa-spin" style="font-size:30px;"></i>
+                </div>
+                <div>
+                    Processing Data (<span id="prog_num">10</span>%) ...
+                </div>
+            </div>
+            <div class="row" style="display:;">
+           
+              <div class="col-xs-12" id="information-box-heading" style="display:none;">
+                  <h3 class="heading-h3 col-xs-12 st_hd" id="STATE-HEAD"></h3> 
+              </div>
+            </div>
+            <div class="row display_off" id="sub-info-q" >
+              <div class="col-sm-12">
+                <h4 class="heading-h4" id="CATEGORY-HEAD"></h4>
+                <ul class="no-style center-detail-list">
+                  <li class="row">
+                    <div class="col-sm-7">
+                        <div class="list-label display_off quality_info" id="LABEL_1" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_1" ></div>
+                    </div>
+                  </li>
+                   <li class="row"> 
+                    <div class="col-sm-7">
+                        <div class="list-label display_off" id="LABEL_2" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_2" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                        <div class="list-label display_off" id="LABEL_3" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_3" ></div>
+                    </div>
+                  </li>
+                 <li class="row">
+                    <div class="col-sm-7">
+                        <div class="list-label display_off" id="LABEL_4" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_4" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_5" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_5" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_6" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_6" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_7" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_7" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_8" class="quality_info" ></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_8" class="quality_info" ></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label display_off" id="LABEL_9" class="quality_info"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value display_off" id="VALUE_9" class="quality_info"></div>
+                    </div>
+                  </li>
+                    
+                  <li class="row">
+                    <div class="col-sm-2 quality_leg1">
+                        
+                    </div>
+                    <div class="col-sm-2">
+                        Surplus
+                    </div>
+                    <div class="col-sm-2 quality_leg2">
+                    </div>
+                    <div class="col-sm-2">
+                        Shortage
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row col-border display_c" style="display:none;" id="sub-info" >
+              <div class="col-sm-5 display_c" id="sub-info-box">
+                <ul class="no-style population-detail-list">
+                  <li>
+                    <div class="list-value" id="URBAN-POPULATION"></div>
+                    <div class="list-label" id="URBP"></div>
+                  </li>
+                  <li>
+                    <div class="list-value" id="RURAL-POPULATION"></div>
+                    <div class="list-label" id="DENOMINATOR"></div>
+                  </li>
+                  <li>
+                    <div class="list-value" id="RURAL-TRIBAL-POPULATION"></div>
+                    <div class="list-label" id="NUMERATOR"></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-7" id="sub-info-2">
+                <h4 class="heading-h4" id="CATEGORY-HEAD"></h4>
+                <ul class="no-style center-detail-list">
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label" style="margin-left:-5%;" id="EXISTING-LABLE"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value" style="margin-left:-10%;" id="EXISTING"></div>
+                    </div>
+                  </li>
+                  <li class="row" id="CAVEAT_ROW" style="display:none;">
+                    <div class="col-sm-12">
+                      <div class="list-label cvt_cnt" id="CAVEAT"></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label" style="margin-left:-5%;" id="REQUIRED-LABLE"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value" style="margin-left:-10%;" id="REQUIRED"></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-sm-7">
+                      <div class="list-label" id="CHC-LABEL"></div>
+                      <div class="list-label" style="margin-left:-5%;" id="SHORTAGE-LABEL"></div>
+                    </div>
+                    <div class="col-sm-5">
+                      <div class="list-value" style="margin-left:-10%;" id="SHORTAGE"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    
+     <div id="snackbar">Not available</div>
+    
+      <div class="row">
+            <div class="col-sm-6" style="padding-left:15%;display:none;" id="nfhs_index_legend">
+                <div class="row">
+                <div class="col-sm-3 text-center">
+                  <div  class="floating-label leg_style" id="l1" style="100%;" ></div>
+                    <div class="floating-box l1" style="background:#045A8D;width:100%;"></div>
+                    <div  class="leg_style" id="d1" > 1st - 5th </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                  <div  class="floating-label leg_style" id="l2" style="100%;"></div>
+                     <div class="floating-box l2" style="background:#2B8CBE;width:100%;"></div>
+                     <div  class="leg_style" id="d2" > 6th - 10th </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                  <div  class="floating-label leg_style" id="l3" style="100%;"></div>
+                     <div class="floating-box l3" style="background:#FFC107;width:100%;"></div>
+                    <div  class="leg_style" id="d3" > 11th - 15th </div>
+                </div>
+                <div class="col-sm-3 text-center">
+                  <div  class="floating-label leg_style" id="l4" style="100%;"></div>
+                     <div class="floating-box l4" style="background:#E65100;width:100%;"></div>
+                     <div  class="leg_style" id="d4" > 16th - 21st </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6" style="padding-left:15%;display:block;" id="nfhs_map_legend">
+                <div id="legend_Header" style="width:90%;font-size:10px;margin-left:10%;display:none;"></div>
+                <div id="nfhs_legend_1" style="width:90%;display:none;"></div>
+                <div id="nfhs_legend_1_val" style="width:90%;display:none;margin-top:-23px;font-size:12px;background:#eee;">
+                    <div id="quartile_1_val" style="width:20%;float:left;text-align:;padding-left:10%;"></div>
+                    <div id="quartile_2_val" style="width:20%;float:left;text-align:;padding-left:10%;"></div>
+                    <div id="quartile_3_val" style="width:20%;float:left;text-align:;padding-left:10%;"></div>
+                    <div id="quartile_4_val" style="width:20%;float:left;text-align:;padding-left:10%;"></div>
+                </div>
+                <!--<img src="assets/images/legend_sample.png">-->
+            </div>
+            <div class="col-sm-6" style="padding-left:15%;" id="nfhs_info_box_legend">
+                <div id="nfhs_quartile_legend" style="display:none;">
+                
+                    <div class="col-sm-6">
+                        <div style="font-size:10px;margin-bottom:10px;">Income Quintile Distribution</div>
+                        <div style="width:100%;">
+                            <div style="width:20%;height:10px;background:#41709a;float:left;"></div>
+                            <div style="width:20%;height:10px;background:#679dae;float:left;"></div>
+                            <div style="width:20%;height:10px;background:#85beb5;float:left;"></div>
+                            <div style="width:20%;height:10px;background:#9dcba3;float:left;"></div>
+                            <div style="width:20%;height:10px;background:#c3d5b1;float:left;"></div>
+                        </div>
+                         <div style="width:100%;font-size:10px;text-align:center;">
+                            <div style="width:20%;height:14px;float:left;">Poorest</div>
+                            <div style="width:20%;height:14px;float:left;"></div>
+                            <div style="width:20%;height:14px;float:left;"></div>
+                            <div style="width:20%;height:14px;float:left;"></div>
+                            <div style="width:20%;height:14px;float:left;">Richest</div>
+                        </div>
+                        
+                     </div>
+                </div>
+                
+                <div id="nfhs_health_legend" style="display:none;">
+                    <div class="col-sm-6" id="quintile_with_severe" style="display:;">
+                        <div style="font-size:10px;margin-bottom:10px;"><span id="legend_heading_c">Glucose</span> Level</div>
+                         
+                        <div style="width:100%;">
+                            <div id="legend_heading_c_color_1" style="display:;width:20%;height:10px;background:#f2bfa4;float:left;"></div>
+                            <div id="legend_heading_c_color_2" style="display:;width:20%;height:10px;background:#abd1ac;float:left;"></div>
+                            <div id="legend_heading_c_color_3" style="display:;width:20%;height:10px;background:#e27e7e;float:left;"></div>
+                            <div id="legend_heading_c_color_4" style="display:;width:20%;height:10px;background:#fc6b6b;float:left;"></div>
+                            <div id="legend_heading_c_color_5" style="display:;width:20%;height:10px;background:#ff0c0c;float:left;"></div>
+                        </div>
+                        <div style="width:100%;font-size:10px;text-align:center;">
+                            <div id="legend_heading_c_val_1" style="display:;width:20%;height:14px;float:left;">Low</div>
+                            <div id="legend_heading_c_val_2" style="display:;width:20%;height:14px;float:left;">Medium</div>
+                            <div id="legend_heading_c_val_3" style="display:;width:20%;height:14px;float:left;">High</div>
+                            <div id="legend_heading_c_val_4" style="display:;width:20%;height:14px;float:left;">Elevated</div>
+                            <div id="legend_heading_c_val_5" style="display:;width:20%;height:14px;float:left;">Severe</div>
+                        </div>
+                     </div>
+                    <div class="col-sm-6" id="quintile_without_severe" style="display:none;">
+                        <div style="font-size:10px;margin-bottom:10px;"><span id="legend_heading_d">Glucose</span> Level</div>
+                         
+                        <div style="width:100%;">
+                            <div style="width:30%;height:10px;background:#f2bfa4;float:left;"></div>
+                            <div style="width:30%;height:10px;background:#abd1ac;float:left;"></div>
+                            <div style="width:30%;height:10px;background:#e27e7e;float:left;"></div>
+                        </div>
+                        <div style="width:100%;font-size:10px;text-align:center;">
+                            <div style="width:30%;height:14px;float:left;">Low</div>
+                            <div style="width:30%;height:14px;float:left;">Medium</div>
+                            <div style="width:30%;height:14px;float:left;">High</div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+      </div>
+
+    <div id="tooltip" style=" position: absolute; height:150px;width:60px;background:white;border-radius:3px;font-size:12px;display:none;box-shadow: 2px 4px 2px 4px #eee; text-align:center; ">
+            <div style="font-size:8px;color:white;background:#41709a;height:30px;padding-top:2%;" ><span id="q1" style="font-size:12px;color:white;">25</span>%</div>
+            <div style="font-size:8px;color:white;background:#679dae;height:30px;padding-top:2%;" ><span id="q2" style="font-size:12px;color:white;">25</span>%</div>
+            <div style="font-size:8px;color:white;background:#85beb5;height:30px;padding-top:2%;" ><span id="q3" style="font-size:12px;color:white;">25</span>%</div>
+            <div style="font-size:8px;color:white;background:#9dcba3;height:30px;padding-top:2%;" ><span id="q4" style="font-size:12px;color:white;">25</span>%</div>
+            <div style="font-size:8px;color:white;background:#c3d5b1;height:30px;padding-top:2%;" ><span id="q5" style="font-size:12px;color:white;">25</span>%</div>
+    </div>
+    
+    <div id="mapTooltip" style="position: absolute; height:35px;width:auto;background:white;border-radius:3px;padding:10px;font-size:12px;display:none;border:1px solid #7e7e7e;z-index:600;opacity:0.7;">
+        <div><span id="mapToolTipDist">Lucknow</span> (<span id="mapToolTipState">Uttar Pradesh</span>)</div>
+    </div>
+    
+    <div class="col-sm-6" id="INFO-CAVEAT" style="font-size:10px;"></div>
+    
+    <div class="row">
+    
+        <div class="search-container form-group" id="google_translate_element"></div><script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+    </div>
+    
+
+    <script type="text/javascript" src="../../vendor/alasql_v1_0.4.js"></script>
+    <script type="text/javascript" src="../../vendor/jquery_v3_2_1_min.js"></script>
+    <script>
+    // Initiate zoom effect:
+    //imageZoom("India-district-chart-area", "myresult");
+    </script>
+
+    <script>
+        var prog_number = $("#prog_num");
+        var width = 10;
+        var id = setInterval(frame, 7);
+        function frame() {
+            if (width >= 100) {
+                $("#progress_num_div").hide();
+                $("#information-box-heading").show()
+                //$("#sub-info-q").show()
+                $("#sub-info").show()
+            } else {
+              width++; 
+              prog_number.html(width * 1);
+            }
+        }
+        
+    </script>
+    
+    <script type="text/javascript" src="../../vendor/d3_v3_min.js"></script>
+    <script type="text/javascript" src="../../vendor/bootstrap_v3_3_7.js"></script>
+    <script type="text/javascript" src="../../vendor/queue_v1.js"></script>
+    <script type="text/javascript" src="../../vendor/topojson_v1_8.js"></script>
+    <script type="text/javascript" src="../../vendor/number.js"></script>
+    <script type="text/javascript" src="../../vendor/math_v5.js"></script>
+    <!--<script type="text/javascript" src="vendor/alasql_v1_0.4.js"></script>-->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="../../app.js"></script>
+    <script>
+        
+        var centroidMap = 
+        {   
+                    "195|167":"Gujarat",
+                    "201|191":"Daman & Diu",
+                    "207|289":"Lakshadweep",
+                    "210|194":"Dadara & Nagar Havelli",
+                    "218|124":"Rajasthan",
+                    "220|245":"Goa",
+                    "233|76":"Punjab",
+                    "240|202":"Maharashtra",
+                    "241|252":"Karnataka",
+                    "242|31":"Jammu & Kashmir",
+                    "243|95":"Haryana",
+                    "243|295":"Kerala",
+                    "247|77":"Chandigarh",
+                    "250|101":"NCT of Delhi",
+                    "252|63":"Himachal Pradesh",
+                    "262|158":"Madhya Pradesh",
+                    "263|290":"Tamil Nadu",
+                    "270|220":"Telangana",
+                    "271|84":"Uttarakhand",
+                    "278|280":"Puducherry",
+                    "279|241":"Andhra Pradesh",
+                    "285|121":"Uttar Pradesh",
+                    "300|182":"Chhattisgarh",
+                    "324|191":"Odisha",
+                    "335|135":"Bihar",
+                    "335|157":"Jharkhand",
+                    "359|155":"West Bengal",
+                    "364|113":"Sikkim",
+                    "392|136":"Meghalaya",
+                    "397|156":"Tripura",
+                    "408|127":"Assam",
+                    "408|161":"Mizoram",
+                    "409|287":"Andaman & Nicobar Island",
+                    "418|145":"Manipur",
+                    "424|130":"Nagaland",
+                    "426|108":"Arunanchal Pradesh"
+                }
+
+        function dragElement(elmnt) {
+          var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+          if (document.getElementById(elmnt.id + "header")) {
+            /* if present, the header is where you move the DIV from:*/
+            document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+          } else {
+            /* otherwise, move the DIV from anywhere inside the DIV:*/
+            elmnt.onmousedown = dragMouseDown;
+          }
+
+          function dragMouseDown(e) {
+            e = e || window.event;
+            // get the mouse cursor position at startup:
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+        
+            document.onmouseup = closeDragElement;
+            // call a function whenever the cursor moves:
+            document.onmousemove = elementDrag;
+          }
+
+          function elementDrag(e) {
+            e = e || window.event;
+            // calculate the new cursor position:
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+              
+            //console.log("Current X position : ", e.clientX + 50 );
+            //console.log("Current Y position : ", e.clientY + 50 );
+              
+            //Logic implemented  
+            /*  The X cordinate need to match the x_cent with (+/-)20 
+                The Y cordinate need to match the (y_cent+161.5) with (+/-)20
+            */  
+            var x_cent = 0, y_cent = 0;
+            for( var prop in centroidMap ){
+                if( centroidMap.hasOwnProperty(prop) ){
+                    x_cent =  parseInt(prop.split("|")[0]);
+                    y_cent =  parseInt(prop.split("|")[1]) + 161.5;
+                    if( 
+                         (event.clientX + 35) >= (x_cent+20) &&  (event.clientX + 35) >= (x_cent-10) 
+                          &&
+                         (event.clientY + 35) >= (y_cent+20) &&  (event.clientY + 35) >= (y_cent-10)
+                      ){
+                        console.log("This is the probable state : "+centroidMap[prop]);
+                    }
+                }
+            }
+              
+            // set the element's new position:
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+          }
+
+          function closeDragElement() {
+            /* stop moving when mouse button is released:*/
+            document.onmouseup = null;
+            document.onmousemove = null;
+          }
+        }
+    </script>
+
+
+    
+    
+</body>
+</html>

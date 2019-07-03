@@ -1,0 +1,2306 @@
+{
+    "l_bmi_all_fe": {
+        "reqVar": [{
+            "v": "l_bmi_all_fe"
+        }],
+        "plotVar": {
+            "v": "l_bmi_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bmi_ur_fe": {
+        "reqVar": [{
+            "v": "l_bmi_ur_fe"
+        }],
+        "plotVar": {
+            "v": "l_bmi_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bmi_ru_fe": {
+        "reqVar": [{
+            "v": "l_bmi_ru_fe"
+        }],
+        "plotVar": {
+            "v": "l_bmi_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bmi_all_fe": {
+        "reqVar": [{
+            "v": "h_bmi_all_fe"
+        }],
+        "plotVar": {
+            "v": "h_bmi_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bmi_ur_fe": {
+        "reqVar": [{
+            "v": "h_bmi_ur_fe"
+        }],
+        "plotVar": {
+            "v": "h_bmi_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bmi_ru_fe": {
+        "reqVar": [{
+            "v": "h_bmi_ru_fe"
+        }],
+        "plotVar": {
+            "v": "h_bmi_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bmi_all_fe": {
+        "reqVar": [{
+            "v": "hh_bmi_all_fe"
+        }],
+        "plotVar": {
+            "v": "hh_bmi_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bmi_ur_fe": {
+        "reqVar": [{
+            "v": "hh_bmi_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hh_bmi_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bmi_ru_fe": {
+        "reqVar": [{
+            "v": "hh_bmi_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hh_bmi_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bmi_all_fe": {
+        "reqVar": [{
+            "v": "hhh_bmi_all_fe"
+        }],
+        "plotVar": {
+            "v": "hhh_bmi_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bmi_ur_fe": {
+        "reqVar": [{
+            "v": "hhh_bmi_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hhh_bmi_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bmi_ru_fe": {
+        "reqVar": [{
+            "v": "hhh_bmi_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hhh_bmi_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_all_fe": {
+        "reqVar": [{
+            "v": "h_hemoglobin_all_fe"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_ur_fe": {
+        "reqVar": [{
+            "v": "h_hemoglobin_ur_fe"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_ru_fe": {
+        "reqVar": [{
+            "v": "h_hemoglobin_ru_fe"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_all_fe": {
+        "reqVar": [{
+            "v": "l_hemoglobin_all_fe"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_ur_fe": {
+        "reqVar": [{
+            "v": "l_hemoglobin_ur_fe"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_ru_fe": {
+        "reqVar": [{
+            "v": "l_hemoglobin_ru_fe"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_all_fe": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_all_fe"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_ur_fe": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_ru_fe": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_all_pw": {
+        "reqVar": [{
+            "v": "h_hemoglobin_all_pw"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_all_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_ur_pw": {
+        "reqVar": [{
+            "v": "h_hemoglobin_ur_pw"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_ur_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_ru_pw": {
+        "reqVar": [{
+            "v": "h_hemoglobin_ru_pw"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_ru_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_all_pw": {
+        "reqVar": [{
+            "v": "l_hemoglobin_all_pw"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_all_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_ur_pw": {
+        "reqVar": [{
+            "v": "l_hemoglobin_ur_pw"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_ur_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_ru_pw": {
+        "reqVar": [{
+            "v": "l_hemoglobin_ru_pw"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_ru_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_all_pw": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_all_pw"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_all_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_ur_pw": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_ur_pw"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_ur_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_ru_pw": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_ru_pw"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_ru_pw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_all_npw": {
+        "reqVar": [{
+            "v": "h_hemoglobin_all_npw"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_all_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_ur_npw": {
+        "reqVar": [{
+            "v": "h_hemoglobin_ur_npw"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_ur_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_hemoglobin_ru_npw": {
+        "reqVar": [{
+            "v": "h_hemoglobin_ru_npw"
+        }],
+        "plotVar": {
+            "v": "h_hemoglobin_ru_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_all_npw": {
+        "reqVar": [{
+            "v": "l_hemoglobin_all_npw"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_all_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_ur_npw": {
+        "reqVar": [{
+            "v": "l_hemoglobin_ur_npw"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_ur_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_hemoglobin_ru_npw": {
+        "reqVar": [{
+            "v": "l_hemoglobin_ru_npw"
+        }],
+        "plotVar": {
+            "v": "l_hemoglobin_ru_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_all_npw": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_all_npw"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_all_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_ur_npw": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_ur_npw"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_ur_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_hemoglobin_ru_npw": {
+        "reqVar": [{
+            "v": "hh_hemoglobin_ru_npw"
+        }],
+        "plotVar": {
+            "v": "hh_hemoglobin_ru_npw"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_glucose_all_fe": {
+        "reqVar": [{
+            "v": "h_glucose_all_fe"
+        }],
+        "plotVar": {
+            "v": "h_glucose_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_glucose_ur_fe": {
+        "reqVar": [{
+            "v": "h_glucose_ur_fe"
+        }],
+        "plotVar": {
+            "v": "h_glucose_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_glucose_ru_fe": {
+        "reqVar": [{
+            "v": "h_glucose_ru_fe"
+        }],
+        "plotVar": {
+            "v": "h_glucose_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_glucose_all_fe": {
+        "reqVar": [{
+            "v": "hh_glucose_all_fe"
+        }],
+        "plotVar": {
+            "v": "hh_glucose_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_glucose_ur_fe": {
+        "reqVar": [{
+            "v": "hh_glucose_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hh_glucose_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_glucose_ru_fe": {
+        "reqVar": [{
+            "v": "hh_glucose_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hh_glucose_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_glucose_all_fe": {
+        "reqVar": [{
+            "v": "l_glucose_all_fe"
+        }],
+        "plotVar": {
+            "v": "l_glucose_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_glucose_ur_fe": {
+        "reqVar": [{
+            "v": "l_glucose_ur_fe"
+        }],
+        "plotVar": {
+            "v": "l_glucose_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_glucose_ru_fe": {
+        "reqVar": [{
+            "v": "l_glucose_ru_fe"
+        }],
+        "plotVar": {
+            "v": "l_glucose_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bp_all_fe": {
+        "reqVar": [{
+            "v": "h_bp_all_fe"
+        }],
+        "plotVar": {
+            "v": "h_bp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bp_ur_fe": {
+        "reqVar": [{
+            "v": "h_bp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "h_bp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bp_ru_fe": {
+        "reqVar": [{
+            "v": "h_bp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "h_bp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bp_all_fe": {
+        "reqVar": [{
+            "v": "l_bp_all_fe"
+        }],
+        "plotVar": {
+            "v": "l_bp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bp_ur_fe": {
+        "reqVar": [{
+            "v": "l_bp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "l_bp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bp_ru_fe": {
+        "reqVar": [{
+            "v": "l_bp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "l_bp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bp_all_fe": {
+        "reqVar": [{
+            "v": "hh_bp_all_fe"
+        }],
+        "plotVar": {
+            "v": "hh_bp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bp_ur_fe": {
+        "reqVar": [{
+            "v": "hh_bp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hh_bp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bp_ru_fe": {
+        "reqVar": [{
+            "v": "hh_bp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hh_bp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bp_all_fe": {
+        "reqVar": [{
+            "v": "hhh_bp_all_fe"
+        }],
+        "plotVar": {
+            "v": "hhh_bp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bp_ur_fe": {
+        "reqVar": [{
+            "v": "hhh_bp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hhh_bp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bp_ru_fe": {
+        "reqVar": [{
+            "v": "hhh_bp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hhh_bp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhhh_bp_all_fe": {
+        "reqVar": [{
+            "v": "hhhh_bp_all_fe"
+        }],
+        "plotVar": {
+            "v": "hhhh_bp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhhh_bp_ur_fe": {
+        "reqVar": [{
+            "v": "hhhh_bp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hhhh_bp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhhh_bp_ru_fe": {
+        "reqVar": [{
+            "v": "hhhh_bp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hhhh_bp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_cbp_all_fe": {
+        "reqVar": [{
+            "v": "hh_cbp_all_fe"
+        }],
+        "plotVar": {
+            "v": "hh_cbp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_cbp_ur_fe": {
+        "reqVar": [{
+            "v": "hh_cbp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "hh_cbp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_cbp_ru_fe": {
+        "reqVar": [{
+            "v": "hh_cbp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "hh_cbp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_cbp_all_fe": {
+        "reqVar": [{
+            "v": "h_cbp_all_fe"
+        }],
+        "plotVar": {
+            "v": "h_cbp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_cbp_ur_fe": {
+        "reqVar": [{
+            "v": "h_cbp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "h_cbp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_cbp_ru_fe": {
+        "reqVar": [{
+            "v": "h_cbp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "h_cbp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_cbp_all_fe": {
+        "reqVar": [{
+            "v": "l_cbp_all_fe"
+        }],
+        "plotVar": {
+            "v": "l_cbp_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_cbp_ur_fe": {
+        "reqVar": [{
+            "v": "l_cbp_ur_fe"
+        }],
+        "plotVar": {
+            "v": "l_cbp_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_cbp_ru_fe": {
+        "reqVar": [{
+            "v": "l_cbp_ru_fe"
+        }],
+        "plotVar": {
+            "v": "l_cbp_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_cancer_all_fe": {
+        "reqVar": [{
+            "v": "p_cancer_all_fe"
+        }],
+        "plotVar": {
+            "v": "p_cancer_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_cancer_ur_fe": {
+        "reqVar": [{
+            "v": "p_cancer_ur_fe"
+        }],
+        "plotVar": {
+            "v": "p_cancer_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_cancer_ru_fe": {
+        "reqVar": [{
+            "v": "p_cancer_ru_fe"
+        }],
+        "plotVar": {
+            "v": "p_cancer_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_cancer_all_fe": {
+        "reqVar": [{
+            "v": "t_cancer_all_fe"
+        }],
+        "plotVar": {
+            "v": "t_cancer_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_cancer_ur_fe": {
+        "reqVar": [{
+            "v": "t_cancer_ur_fe"
+        }],
+        "plotVar": {
+            "v": "t_cancer_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_cancer_ru_fe": {
+        "reqVar": [{
+            "v": "t_cancer_ru_fe"
+        }],
+        "plotVar": {
+            "v": "t_cancer_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_cancer_all_fe": {
+        "reqVar": [{
+            "v": "dk_cancer_all_fe"
+        }],
+        "plotVar": {
+            "v": "dk_cancer_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_cancer_ur_fe": {
+        "reqVar": [{
+            "v": "dk_cancer_ur_fe"
+        }],
+        "plotVar": {
+            "v": "dk_cancer_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_cancer_ru_fe": {
+        "reqVar": [{
+            "v": "dk_cancer_ru_fe"
+        }],
+        "plotVar": {
+            "v": "dk_cancer_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_asthma_all_fe": {
+        "reqVar": [{
+            "v": "p_asthma_all_fe"
+        }],
+        "plotVar": {
+            "v": "p_asthma_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_asthma_ur_fe": {
+        "reqVar": [{
+            "v": "p_asthma_ur_fe"
+        }],
+        "plotVar": {
+            "v": "p_asthma_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_asthma_ru_fe": {
+        "reqVar": [{
+            "v": "p_asthma_ru_fe"
+        }],
+        "plotVar": {
+            "v": "p_asthma_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_asthma_all_fe": {
+        "reqVar": [{
+            "v": "t_asthma_all_fe"
+        }],
+        "plotVar": {
+            "v": "t_asthma_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_asthma_ur_fe": {
+        "reqVar": [{
+            "v": "t_asthma_ur_fe"
+        }],
+        "plotVar": {
+            "v": "t_asthma_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_asthma_ru_fe": {
+        "reqVar": [{
+            "v": "t_asthma_ru_fe"
+        }],
+        "plotVar": {
+            "v": "t_asthma_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_asthma_all_fe": {
+        "reqVar": [{
+            "v": "dk_asthma_all_fe"
+        }],
+        "plotVar": {
+            "v": "dk_asthma_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_asthma_ur_fe": {
+        "reqVar": [{
+            "v": "dk_asthma_ur_fe"
+        }],
+        "plotVar": {
+            "v": "dk_asthma_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_asthma_ru_fe": {
+        "reqVar": [{
+            "v": "dk_asthma_ru_fe"
+        }],
+        "plotVar": {
+            "v": "dk_asthma_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_diabetes_all_fe": {
+        "reqVar": [{
+            "v": "p_diabetes_all_fe"
+        }],
+        "plotVar": {
+            "v": "p_diabetes_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_diabetes_ur_fe": {
+        "reqVar": [{
+            "v": "p_diabetes_ur_fe"
+        }],
+        "plotVar": {
+            "v": "p_diabetes_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_diabetes_ru_fe": {
+        "reqVar": [{
+            "v": "p_diabetes_ru_fe"
+        }],
+        "plotVar": {
+            "v": "p_diabetes_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_diabetes_all_fe": {
+        "reqVar": [{
+            "v": "t_diabetes_all_fe"
+        }],
+        "plotVar": {
+            "v": "t_diabetes_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_diabetes_ur_fe": {
+        "reqVar": [{
+            "v": "t_diabetes_ur_fe"
+        }],
+        "plotVar": {
+            "v": "t_diabetes_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_diabetes_ru_fe": {
+        "reqVar": [{
+            "v": "t_diabetes_ru_fe"
+        }],
+        "plotVar": {
+            "v": "t_diabetes_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_diabetes_all_fe": {
+        "reqVar": [{
+            "v": "dk_diabetes_all_fe"
+        }],
+        "plotVar": {
+            "v": "dk_diabetes_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_diabetes_ur_fe": {
+        "reqVar": [{
+            "v": "dk_diabetes_ur_fe"
+        }],
+        "plotVar": {
+            "v": "dk_diabetes_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_diabetes_ru_fe": {
+        "reqVar": [{
+            "v": "dk_diabetes_ru_fe"
+        }],
+        "plotVar": {
+            "v": "dk_diabetes_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_thyroid_all_fe": {
+        "reqVar": [{
+            "v": "p_thyroid_all_fe"
+        }],
+        "plotVar": {
+            "v": "p_thyroid_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_thyroid_ur_fe": {
+        "reqVar": [{
+            "v": "p_thyroid_ur_fe"
+        }],
+        "plotVar": {
+            "v": "p_thyroid_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_thyroid_ru_fe": {
+        "reqVar": [{
+            "v": "p_thyroid_ru_fe"
+        }],
+        "plotVar": {
+            "v": "p_thyroid_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_thyroid_all_fe": {
+        "reqVar": [{
+            "v": "t_thyroid_all_fe"
+        }],
+        "plotVar": {
+            "v": "t_thyroid_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_thyroid_ur_fe": {
+        "reqVar": [{
+            "v": "t_thyroid_ur_fe"
+        }],
+        "plotVar": {
+            "v": "t_thyroid_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_thyroid_ru_fe": {
+        "reqVar": [{
+            "v": "t_thyroid_ru_fe"
+        }],
+        "plotVar": {
+            "v": "t_thyroid_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_thyroid": {
+        "reqVar": [{
+            "v": "dk_thyroid"
+        }],
+        "plotVar": {
+            "v": "dk_thyroid"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_thyroid_ur": {
+        "reqVar": [{
+            "v": "dk_thyroid_ur"
+        }],
+        "plotVar": {
+            "v": "dk_thyroid_ur"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_thyroid_ru": {
+        "reqVar": [{
+            "v": "dk_thyroid_ru"
+        }],
+        "plotVar": {
+            "v": "dk_thyroid_ru"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_heart_all_fe": {
+        "reqVar": [{
+            "v": "p_heart_all_fe"
+        }],
+        "plotVar": {
+            "v": "p_heart_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_heart_ur_fe": {
+        "reqVar": [{
+            "v": "p_heart_ur_fe"
+        }],
+        "plotVar": {
+            "v": "p_heart_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_heart_ru_fe": {
+        "reqVar": [{
+            "v": "p_heart_ru_fe"
+        }],
+        "plotVar": {
+            "v": "p_heart_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_heart_all_fe": {
+        "reqVar": [{
+            "v": "t_heart_all_fe"
+        }],
+        "plotVar": {
+            "v": "t_heart_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_heart_ur_fe": {
+        "reqVar": [{
+            "v": "t_heart_ur_fe"
+        }],
+        "plotVar": {
+            "v": "t_heart_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_heart_ru_fe": {
+        "reqVar": [{
+            "v": "t_heart_ru_fe"
+        }],
+        "plotVar": {
+            "v": "t_heart_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_heart_all_fe": {
+        "reqVar": [{
+            "v": "dk_heart_all_fe"
+        }],
+        "plotVar": {
+            "v": "dk_heart_all_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_heart_ur_fe": {
+        "reqVar": [{
+            "v": "dk_heart_ur_fe"
+        }],
+        "plotVar": {
+            "v": "dk_heart_ur_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_heart_ru_fe": {
+        "reqVar": [{
+            "v": "dk_heart_ru_fe"
+        }],
+        "plotVar": {
+            "v": "dk_heart_ru_fe"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_glucose_all_ma": {
+        "reqVar": [{
+            "v": "h_glucose_all_ma"
+        }],
+        "plotVar": {
+            "v": "h_glucose_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_glucose_ur_ma": {
+        "reqVar": [{
+            "v": "h_glucose_ur_ma"
+        }],
+        "plotVar": {
+            "v": "h_glucose_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_glucose_ru_ma": {
+        "reqVar": [{
+            "v": "h_glucose_ru_ma"
+        }],
+        "plotVar": {
+            "v": "h_glucose_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_glucose_all_ma": {
+        "reqVar": [{
+            "v": "hh_glucose_all_ma"
+        }],
+        "plotVar": {
+            "v": "hh_glucose_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_glucose_ur_ma": {
+        "reqVar": [{
+            "v": "hh_glucose_ur_ma"
+        }],
+        "plotVar": {
+            "v": "hh_glucose_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_glucose_ru_ma": {
+        "reqVar": [{
+            "v": "hh_glucose_ru_ma"
+        }],
+        "plotVar": {
+            "v": "hh_glucose_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_glucose_all_ma": {
+        "reqVar": [{
+            "v": "l_glucose_all_ma"
+        }],
+        "plotVar": {
+            "v": "l_glucose_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_glucose_ur_ma": {
+        "reqVar": [{
+            "v": "l_glucose_ur_ma"
+        }],
+        "plotVar": {
+            "v": "l_glucose_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_glucose_ru_ma": {
+        "reqVar": [{
+            "v": "l_glucose_ru_ma"
+        }],
+        "plotVar": {
+            "v": "l_glucose_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bp_all_ma": {
+        "reqVar": [{
+            "v": "h_bp_all_ma"
+        }],
+        "plotVar": {
+            "v": "h_bp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bp_ur_ma": {
+        "reqVar": [{
+            "v": "h_bp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "h_bp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_bp_ru_ma": {
+        "reqVar": [{
+            "v": "h_bp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "h_bp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bp_all_ma": {
+        "reqVar": [{
+            "v": "l_bp_all_ma"
+        }],
+        "plotVar": {
+            "v": "l_bp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bp_ur_ma": {
+        "reqVar": [{
+            "v": "l_bp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "l_bp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_bp_ru_ma": {
+        "reqVar": [{
+            "v": "l_bp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "l_bp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bp_all_ma": {
+        "reqVar": [{
+            "v": "hh_bp_all_ma"
+        }],
+        "plotVar": {
+            "v": "hh_bp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bp_ur_ma": {
+        "reqVar": [{
+            "v": "hh_bp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "hh_bp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_bp_ru_ma": {
+        "reqVar": [{
+            "v": "hh_bp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "hh_bp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bp_all_ma": {
+        "reqVar": [{
+            "v": "hhh_bp_all_ma"
+        }],
+        "plotVar": {
+            "v": "hhh_bp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bp_ur_ma": {
+        "reqVar": [{
+            "v": "hhh_bp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "hhh_bp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhh_bp_ru_ma": {
+        "reqVar": [{
+            "v": "hhh_bp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "hhh_bp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhhh_bp_all_ma": {
+        "reqVar": [{
+            "v": "hhhh_bp_all_ma"
+        }],
+        "plotVar": {
+            "v": "hhhh_bp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhhh_bp_ur_ma": {
+        "reqVar": [{
+            "v": "hhhh_bp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "hhhh_bp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hhhh_bp_ru_ma": {
+        "reqVar": [{
+            "v": "hhhh_bp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "hhhh_bp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_cbp_all_ma": {
+        "reqVar": [{
+            "v": "hh_cbp_all_ma"
+        }],
+        "plotVar": {
+            "v": "hh_cbp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_cbp_ur_ma": {
+        "reqVar": [{
+            "v": "hh_cbp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "hh_cbp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "hh_cbp_ru_ma": {
+        "reqVar": [{
+            "v": "hh_cbp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "hh_cbp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_cbp_all_ma": {
+        "reqVar": [{
+            "v": "h_cbp_all_ma"
+        }],
+        "plotVar": {
+            "v": "h_cbp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_cbp_ur_ma": {
+        "reqVar": [{
+            "v": "h_cbp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "h_cbp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "h_cbp_ru_ma": {
+        "reqVar": [{
+            "v": "h_cbp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "h_cbp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_cbp_all_ma": {
+        "reqVar": [{
+            "v": "l_cbp_all_ma"
+        }],
+        "plotVar": {
+            "v": "l_cbp_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_cbp_ur_ma": {
+        "reqVar": [{
+            "v": "l_cbp_ur_ma"
+        }],
+        "plotVar": {
+            "v": "l_cbp_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "l_cbp_ru_ma": {
+        "reqVar": [{
+            "v": "l_cbp_ru_ma"
+        }],
+        "plotVar": {
+            "v": "l_cbp_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_cancer_all_ma": {
+        "reqVar": [{
+            "v": "p_cancer_all_ma"
+        }],
+        "plotVar": {
+            "v": "p_cancer_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_cancer_ur_ma": {
+        "reqVar": [{
+            "v": "p_cancer_ur_ma"
+        }],
+        "plotVar": {
+            "v": "p_cancer_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_cancer_ru_ma": {
+        "reqVar": [{
+            "v": "p_cancer_ru_ma"
+        }],
+        "plotVar": {
+            "v": "p_cancer_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_cancer_all_ma": {
+        "reqVar": [{
+            "v": "t_cancer_all_ma"
+        }],
+        "plotVar": {
+            "v": "t_cancer_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_cancer_ur_ma": {
+        "reqVar": [{
+            "v": "t_cancer_ur_ma"
+        }],
+        "plotVar": {
+            "v": "t_cancer_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_cancer_ru_ma": {
+        "reqVar": [{
+            "v": "t_cancer_ru_ma"
+        }],
+        "plotVar": {
+            "v": "t_cancer_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_cancer_all_ma": {
+        "reqVar": [{
+            "v": "dk_cancer_all_ma"
+        }],
+        "plotVar": {
+            "v": "dk_cancer_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_cancer_ur_ma": {
+        "reqVar": [{
+            "v": "dk_cancer_ur_ma"
+        }],
+        "plotVar": {
+            "v": "dk_cancer_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_cancer_ru_ma": {
+        "reqVar": [{
+            "v": "dk_cancer_ru_ma"
+        }],
+        "plotVar": {
+            "v": "dk_cancer_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_asthma_all_ma": {
+        "reqVar": [{
+            "v": "p_asthma_all_ma"
+        }],
+        "plotVar": {
+            "v": "p_asthma_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_asthma_ur_ma": {
+        "reqVar": [{
+            "v": "p_asthma_ur_ma"
+        }],
+        "plotVar": {
+            "v": "p_asthma_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_asthma_ru_ma": {
+        "reqVar": [{
+            "v": "p_asthma_ru_ma"
+        }],
+        "plotVar": {
+            "v": "p_asthma_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_asthma_all_ma": {
+        "reqVar": [{
+            "v": "t_asthma_all_ma"
+        }],
+        "plotVar": {
+            "v": "t_asthma_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_asthma_ur_ma": {
+        "reqVar": [{
+            "v": "t_asthma_ur_ma"
+        }],
+        "plotVar": {
+            "v": "t_asthma_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_asthma_ru_ma": {
+        "reqVar": [{
+            "v": "t_asthma_ru_ma"
+        }],
+        "plotVar": {
+            "v": "t_asthma_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_asthma_all_ma": {
+        "reqVar": [{
+            "v": "dk_asthma_all_ma"
+        }],
+        "plotVar": {
+            "v": "dk_asthma_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_asthma_ur_ma": {
+        "reqVar": [{
+            "v": "dk_asthma_ur_ma"
+        }],
+        "plotVar": {
+            "v": "dk_asthma_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_asthma_ru_ma": {
+        "reqVar": [{
+            "v": "dk_asthma_ru_ma"
+        }],
+        "plotVar": {
+            "v": "dk_asthma_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_diabetes_all_ma": {
+        "reqVar": [{
+            "v": "p_diabetes_all_ma"
+        }],
+        "plotVar": {
+            "v": "p_diabetes_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_diabetes_ur_ma": {
+        "reqVar": [{
+            "v": "p_diabetes_ur_ma"
+        }],
+        "plotVar": {
+            "v": "p_diabetes_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_diabetes_ru_ma": {
+        "reqVar": [{
+            "v": "p_diabetes_ru_ma"
+        }],
+        "plotVar": {
+            "v": "p_diabetes_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_diabetes_all_ma": {
+        "reqVar": [{
+            "v": "t_diabetes_all_ma"
+        }],
+        "plotVar": {
+            "v": "t_diabetes_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_diabetes_ur_ma": {
+        "reqVar": [{
+            "v": "t_diabetes_ur_ma"
+        }],
+        "plotVar": {
+            "v": "t_diabetes_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_diabetes_ru_ma": {
+        "reqVar": [{
+            "v": "t_diabetes_ru_ma"
+        }],
+        "plotVar": {
+            "v": "t_diabetes_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_diabetes_all_ma": {
+        "reqVar": [{
+            "v": "dk_diabetes_all_ma"
+        }],
+        "plotVar": {
+            "v": "dk_diabetes_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_diabetes_ur_ma": {
+        "reqVar": [{
+            "v": "dk_diabetes_ur_ma"
+        }],
+        "plotVar": {
+            "v": "dk_diabetes_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_diabetes_ru_ma": {
+        "reqVar": [{
+            "v": "dk_diabetes_ru_ma"
+        }],
+        "plotVar": {
+            "v": "dk_diabetes_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_thyroid_all_ma": {
+        "reqVar": [{
+            "v": "p_thyroid_all_ma"
+        }],
+        "plotVar": {
+            "v": "p_thyroid_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_thyroid_ur_ma": {
+        "reqVar": [{
+            "v": "p_thyroid_ur_ma"
+        }],
+        "plotVar": {
+            "v": "p_thyroid_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_thyroid_ru_ma": {
+        "reqVar": [{
+            "v": "p_thyroid_ru_ma"
+        }],
+        "plotVar": {
+            "v": "p_thyroid_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_thyroid_all_ma": {
+        "reqVar": [{
+            "v": "t_thyroid_all_ma"
+        }],
+        "plotVar": {
+            "v": "t_thyroid_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_thyroid_ur_ma": {
+        "reqVar": [{
+            "v": "t_thyroid_ur_ma"
+        }],
+        "plotVar": {
+            "v": "t_thyroid_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_thyroid_ru_ma": {
+        "reqVar": [{
+            "v": "t_thyroid_ru_ma"
+        }],
+        "plotVar": {
+            "v": "t_thyroid_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_heart_all_ma": {
+        "reqVar": [{
+            "v": "p_heart_all_ma"
+        }],
+        "plotVar": {
+            "v": "p_heart_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_heart_ur_ma": {
+        "reqVar": [{
+            "v": "p_heart_ur_ma"
+        }],
+        "plotVar": {
+            "v": "p_heart_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "p_heart_ru_ma": {
+        "reqVar": [{
+            "v": "p_heart_ru_ma"
+        }],
+        "plotVar": {
+            "v": "p_heart_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_heart_all_ma": {
+        "reqVar": [{
+            "v": "t_heart_all_ma"
+        }],
+        "plotVar": {
+            "v": "t_heart_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_heart_ur_ma": {
+        "reqVar": [{
+            "v": "t_heart_ur_ma"
+        }],
+        "plotVar": {
+            "v": "t_heart_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "t_heart_ru_ma": {
+        "reqVar": [{
+            "v": "t_heart_ru_ma"
+        }],
+        "plotVar": {
+            "v": "t_heart_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_heart_all_ma": {
+        "reqVar": [{
+            "v": "dk_heart_all_ma"
+        }],
+        "plotVar": {
+            "v": "dk_heart_all_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_heart_ur_ma": {
+        "reqVar": [{
+            "v": "dk_heart_ur_ma"
+        }],
+        "plotVar": {
+            "v": "dk_heart_ur_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    },
+    "dk_heart_ru_ma": {
+        "reqVar": [{
+            "v": "dk_heart_ru_ma"
+        }],
+        "plotVar": {
+            "v": "dk_heart_ru_ma"
+        },
+        "denom_head": "Denominator",
+        "num_head": "Numerator",
+        "plotType": "nfhs_percent",
+        "plot_division": "nfhs"
+    }
+}

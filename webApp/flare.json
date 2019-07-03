@@ -1,0 +1,79 @@
+{
+    "name": "Glucose",
+    "children": [
+    {
+        "name": "Healthy",
+        "children": [
+            {
+                    "name": "Q1",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q2",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q3",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q4",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q5",
+                    "size": 4
+            }
+        ]
+    }, 
+    {
+        "name": "High",
+        "children": [
+            {
+                    "name": "Q1",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q2",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q3",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q4",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q5",
+                    "size": 4
+            }
+        ]
+    }, 
+    {
+        "name": "Low",
+        "children": [
+            {
+                    "name": "Q1",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q2",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q3",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q4",
+                    "size": 4
+            }, 
+            {
+                    "name": "Q5",
+                    "size": 4
+            }
+        ]
+  }]
+}

@@ -1,0 +1,6530 @@
+{
+    "l_bmi_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anorexia (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bmi_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anorexia (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bmi_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anorexia (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bmi_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bmi_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bmi_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bmi_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Overweight (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bmi_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Overweight (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bmi_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Overweight (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bmi_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Obese (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bmi_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Obese (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bmi_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Obese (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_all_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_ur_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_ru_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_all_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_ur_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Urban Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_ru_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Rural Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_all_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_ur_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Urban Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_ru_pw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Rural Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_all_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_ur_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_hemoglobin_ru_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_all_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_ur_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Urban Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_hemoglobin_ru_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Anaemic (Rural Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_all_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_ur_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Urban Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_hemoglobin_ru_npw": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Rural Non-Pregnant Woman)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_glucose_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_glucose_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_glucose_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_glucose_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_glucose_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_glucose_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_glucose_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_glucose_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_glucose_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Elevated (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Elevated (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Elevated (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "high (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhhh_bp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Severe (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhhh_bp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Severe (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhhh_bp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Severe (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_cbp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High Cuff Pressure (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_cbp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High Cuff Pressure (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_cbp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High Cuff Pressure (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_cbp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy Cuff Pressure (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_cbp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy Cuff Pressure (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_cbp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy Cuff Pressure (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_cbp_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low Cuff Pressure (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_cbp_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low Cuff Pressure (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_cbp_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low Cuff Pressure (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_cancer_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_cancer_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_cancer_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_cancer_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed Cancer (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_cancer_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed Cancer (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_cancer_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed Cancer (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_cancer_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_cancer_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_cancer_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_asthma_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_asthma_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_asthma_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_asthma_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_asthma_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_asthma_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_asthma_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_asthma_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_asthma_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_diabetes_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_diabetes_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_diabetes_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_diabetes_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_diabetes_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_diabetes_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_diabetes_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_diabetes_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_diabetes_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_thyroid_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_thyroid_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_thyroid_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_thyroid_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_thyroid_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_thyroid_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_thyroid": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_thyroid_ur": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_thyroid_ru": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_heart_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_heart_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_heart_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_heart_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_heart_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_heart_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_heart_all_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_heart_ur_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_heart_ru_fe": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Female)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_glucose_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_glucose_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_glucose_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_glucose_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_glucose_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_glucose_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_glucose_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_glucose_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_glucose_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_bp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_bp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Elevated (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Elevated (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_bp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Elevated (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High urban (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhh_bp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "high (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhhh_bp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Severe (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhhh_bp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Severe (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hhhh_bp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Severe (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_cbp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High Cuff Pressure (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_cbp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High Cuff Pressure (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "hh_cbp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "High Cuff Pressure (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_cbp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy Cuff Pressure (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_cbp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy Cuff Pressure (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "h_cbp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Healthy Cuff Pressure (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_cbp_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low Cuff Pressure (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_cbp_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low Cuff Pressure (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "l_cbp_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Low Cuff Pressure (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_cancer_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_cancer_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_cancer_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_cancer_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_cancer_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_cancer_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_cancer_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_cancer_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_cancer_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_asthma_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_asthma_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_asthma_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_asthma_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_asthma_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_asthma_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_asthma_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_asthma_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_asthma_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_diabetes_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_diabetes_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_diabetes_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_diabetes_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_diabetes_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_diabetes_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_diabetes_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_diabetes_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_diabetes_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_thyroid_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_thyroid_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_thyroid_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_thyroid_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_thyroid_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_thyroid_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_heart_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_heart_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "p_heart_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_heart_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_heart_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "t_heart_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Treated of Those Diagnosed (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_heart_all_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_heart_ur_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Urban Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    },
+    "dk_heart_ru_ma": {
+        "limit": {
+            "l1": {
+                "l": 0,
+                "r": 0.05,
+                "c": "#045A8D",
+                "head": ""
+            },
+            "l2": {
+                "l": 0.06,
+                "r": 0.2,
+                "c": "#2B8CBE",
+                "head": ""
+            },
+            "l3": {
+                "l": 0.21,
+                "r": 0.4,
+                "c": "#FFC107",
+                "head": ""
+            },
+            "l4": {
+                "l": 0.41,
+                "r": 1,
+                "c": "#E65100",
+                "head": ""
+            }
+        },
+        "description": {
+            "main_head": "Don`t Know (Rural Male)",
+            "category_head": "",
+            "leg_head": "",
+            "desc": ""
+        }
+    }
+}
