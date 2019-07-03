@@ -1,0 +1,37 @@
+stateName,ST_CD,TYPE,HQNI,HQLI,HII,RANKING
+Jammu & Kashmir,1,state,4.28,2.1,8.99,1
+Chhattisgarh,22,state,3.86,2.09,8.08,2
+Gujarat,24,state,3.04,2.29,6.95,3
+Karnataka,29,state,2.98,2.31,6.88,4
+Rajasthan,8,state,3.23,1.89,6.08,5
+Uttarakhand,5,state,3.38,1.78,6.02,6
+Kerala,32,state,3.1,1.91,5.94,7
+Delhi,7,state,4.14,1.41,5.84,8
+Assam,18,state,3.04,1.88,5.7,9
+Tamil Nadu,33,state,2.41,2.34,5.62,10
+Punjab,3,state,2.22,2.38,5.29,11
+Andhra Pradesh,36,state,2.29,2.3,5.27,12
+Maharashtra,27,state,1.93,2.55,4.92,13
+Telangana,37,state,2.06,2.37,4.87,14
+Madhya Pradesh,23,state,2.29,2.13,4.87,15
+Haryana,6,state,2.03,2.18,4.41,16
+Odisha,21,state,2.32,1.84,4.28,17
+West Bengal,19,state,1.96,1.86,3.65,18
+Uttar Pradesh,9,state,1.92,1.79,3.44,19
+Jharkhand,20,state,2.15,1.51,3.25,20
+Bihar,10,state,1.62,1.59,2.58,21
+Mizoram,15,small,6.41,2.61,16.73,1
+Sikkim,11,small,5.12,2.35,12.03,2
+Himachal Pradesh,2,small,5.8,1.89,10.96,3
+Arunachal Pradesh,12,small,6.96,1.34,9.33,4
+Nagaland,13,small,4.26,1.96,8.34,5
+Meghalaya,17,small,3.77,2,7.54,6
+Tripura,16,small,3.9,1.85,7.21,7
+Manipur,14,small,3.1,2.05,6.37,8
+Goa,30,small,2.34,2.23,5.23,9
+A & N Islands,35,UT,7.11,2.82,20.04,1
+Lakshadweep,31,UT,4.63,2.78,12.88,2
+Dadra & Nagar Haveli,26,UT,3.21,2.66,8.55,3
+Daman & Diu,25,UT,2.5,2.66,6.65,4
+Puducherry,34,UT,1.87,2.78,5.19,5
+Chandigarh,4,UT,1.9,1.95,3.7,6

@@ -1,0 +1,196 @@
+newId,oldId,Name,Description,Category,Type,Region
+l_bmi_all_fe,anorexia_fe,Anorexia Female,% of females within unit of observation that classifies as Anorexic based on WHO standards,NCD,C,D
+l_bmi_ur_fe,anorexia_ur_fe,Anorexia Urban Female,% of females within urban unit of observation that classifies as Anorexic based on WHO standards,NCD,C,D
+l_bmi_ru_fe,anorexia_ru_fe,Anorexia Rural Female,% of females within rural unit of observation that classifies as Anorexic based on WHO standards,NCD,C,D
+h_bmi_all_fe,hbmi_fe,Healthy BMI Female,% of females within unit of observation that classifies as healthy BMI based on WHO standards,NCD,C,D
+h_bmi_ur_fe,hbmi_ur_fe,Healthy BMI Urban Female,% of females within urban unit of observation that classifies as healthy BMI based on WHO standards,NCD,C,D
+h_bmi_ru_fe,hbmi_ru_fe,Healthy BMI Rural Female,% of females within rural unit of observation that classifies as healthy BMI based on WHO standards,NCD,C,D
+hh_bmi_all_fe,overweight_fe,Overweight BMI Female,% of females within unit of observation that classifies as Overweight based on WHO standards,NCD,C,D
+hh_bmi_ur_fe,overweight_ur_fe,Overweight BMI Urban Female,% of females within urban unit of observation that classifies as Overweight based on WHO standards,NCD,C,D
+hh_bmi_ru_fe,overweight_ru_fe,Overweight BMI Rural Female,% of females within rural unit of observation that classifies as Overweight based on WHO standards,NCD,C,D
+hhh_bmi_all_fe,obese_fe,Obese BMI Female,% of females within unit of observation that classifies as Obese based on WHO standards,NCD,C,D
+hhh_bmi_ur_fe,obese_ur_fe,Obese Urban Female,% of females within urban unit of observation that classifies as Obese based on WHO standards,NCD,C,D
+hhh_bmi_ru_fe,obese_ru_fe,Obese Urban Female,% of females within rural unit of observation that classifies as Obese based on WHO standards,NCD,C,D
+h_hemoglobin_all_fe,hhemoglobin_fe,Healthy Hemoglobin Female,% of females within unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_ur_fe,hhemoglobin_ur_fe,Healthy Hemoglobin Urban Female,% of females within urban unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_ru_fe,hhemoglobin_ru_fe,Healthy Hemoglobin Rural Female,% of females within rural unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+l_hemoglobin_all_fe,anemia_fe,Anemia Female,% of females within unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+l_hemoglobin_ur_fe,anemia_ur_fe,Anemia Urban Female,% of females within urban unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+l_hemoglobin_ru_fe,anemia_ru_fe,Anemia Rural Female,% of females within rural unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+hh_hemoglobin_all_fe,highhemoglobin_fe,High Hemoglobin Female,% of females within unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+hh_hemoglobin_ur_fe,highhemoglobin_ur_fe,High Hemoglobin Urban Female,% of females within urban unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+hh_hemoglobin_ru_fe,highhemoglobin_ru_fe,High Hemolgobin Rural Female,% of females within rural unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_all_pw,hhemoglobin_pw,Healthy Hemoglobin Pregnant Woman,% of pregnant womens within unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_ur_pw,hhemoglobin_ur_pw,Healthy Hemoglobin Urban Pregnant Woman,% of pregnant womens within urban unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_ru_pw,hhemoglobin_ru_pw,Healthy Hemoglobin Rural Pregnant Woman,% of pregnant womens within rural unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+l_hemoglobin_all_pw,anemia_pw,Anemia Pregnant Woman,% of pregnant womens within unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+l_hemoglobin_ur_pw,anemia_ur_pw,Anemia Urban Pregnant Woman,% of pregnant womens within urban unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+l_hemoglobin_ru_pw,anemia_ru_pw,Anemia Rural Pregnant Woman,% of pregnant womens within rural unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+hh_hemoglobin_all_pw,highhemoglobin_pw,High Hemoglobin Pregnant Woman,% of pregnant womens within unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+hh_hemoglobin_ur_pw,highhemoglobin_ur_pw,High Hemoglobin Urban Pregnant Woman,% of pregnant womens within urban unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+hh_hemoglobin_ru_pw,highhemoglobin_ru_pw,High Hemoglobin Rural Pregnant Woman,% of pregnant womens within rural unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_all_npw,hhemoglobin_npw,Healthy Hemoglobin Non-Pregnant Woman,% of non-pregnant womens within unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_ur_npw,hhemoglobin_ur_npw,Healthy Hemoglobin Urban Non-Pregnant Woman,% of non-pregnant womens within urban unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+h_hemoglobin_ru_npw,hhemoglobin_ru_npw,Healthy Hemoglobin Rural Non-Pregnant Woman,% of non-pregnant womens within rural unit of observation that classifies as Healthy Hemoglobin based on NIH standards,NCD,C,D
+l_hemoglobin_all_npw,anemia_npw,Anemia Non-Pregnant Woman,% of non-pregnant womens within unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+l_hemoglobin_ur_npw,anemia_ur_npw,Anemia Urban Non-Pregnant Woman,% of non-pregnant womens within urban unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+l_hemoglobin_ru_npw,anemia_ru_npw,Anemia Rural Non-Pregnant Woman,% of non-pregnant womens within rural unit of observation that classifies as Anemic based on NIH standards,NCD,C,D
+hh_hemoglobin_all_npw,highhemoglobin_npw,High Hemoglobin Non-Pregnant Woman,% of non-pregnant womens within unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+hh_hemoglobin_ur_npw,highhemoglobin_ur_npw,High Hemoglobin Urban Non-Pregnant Woman,% of non-pregnant womens within urban unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+hh_hemoglobin_ru_npw,highhemoglobin_ru_npw,High Hemoglobin Rural Non-Pregnant Woman,% of non-pregnant womens within rural unit of observation that classifies as High Hemoglobin based on NIH standards,NCD,C,D
+h_glucose_all_fe,hglucose_fe,Healthy Glucose Female,% of females within unit of observation that classifies as Healthy Glucose based on American Diabetes Association standards,NCD,C,D
+h_glucose_ur_fe,hglucose_ur_fe,Healthy Glucose Urban Female,% of females within urban unit of observation that classifies as Healthy Glucose based on American Diabetes Association standards,NCD,C,D
+h_glucose_ru_fe,hglucose_ru_fe,Healthy Glucose Rural Female,% of females within rural unit of observation that classifies as Healthy Glucose based on American Diabetes Association standards,NCD,C,D
+hh_glucose_all_fe,highglucose_fe,High Glucose Female,% of females within unit of observation that classifies as High Glucose based on American Diabetes Association standards,NCD,C,D
+hh_glucose_ur_fe,highglucose_ur_fe,High Glucose Urban Female,% of females within urban unit of observation that classifies as High Glucose based on American Diabetes Association standards,NCD,C,D
+hh_glucose_ru_fe,highglucose_ru_fe,High Glucose Rural Female,% of females within rural unit of observation that classifies as High Glucose based on American Diabetes Association standards,NCD,C,D
+l_glucose_all_fe,lowglucose_fe,Low Glucose Female,% of females within unit of observation that classifies as Low Glucose based on American Diabetes Association standards,NCD,C,D
+l_glucose_ur_fe,lowglucose_ur_fe,Low Glucose Urban Female,% of females within urban unit of observation that classifies as Low Glucose based on American Diabetes Association standards,NCD,C,D
+l_glucose_ru_fe,lowglucose_ru_fe,Low Glucose Rural Female,% of females within rural unit of observation that classifies as Low Glucose based on American Diabetes Association standards,NCD,C,D
+h_bp_all_fe,hbp_fe,Healthy Blood Pressure Female,% of females within unit of observation that classifies as Healthy Blood Pressure based on American Heart Association standards,NCD,C,D
+h_bp_ur_fe,hbp_ur_fe,Healthy Blood Pressure Urban Female,% of females within urban unit of observation that classifies as Healthy Blood Pressure based on American Heart Association standards,NCD,C,D
+h_bp_ru_fe,hbp_ru_fe,Healthy Blood Pressure Rural Female,% of females within rural unit of observation that classifies as Healthy Blood Pressure based on American Heart Association standards,NCD,C,D
+l_bp_all_fe,lowbp_fe,Low Blood Pressure Female,% of females within unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+l_bp_ur_fe,lowbp_ur_fe,Low Blood Pressure Urban Female,% of females within urban unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+l_bp_ru_fe,lowbp_ru_fe,Low Blood Pressure Rural Female,% of females within rural unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_bp_all_fe,elevatedbp_fe,Elevated Blood Pressure Female,% of females within unit of observation that classifies as Elevated Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_bp_ur_fe,elevatedbp_ur_fe,Elevated Blood Pressure Urban Female,% of females within urban unit of observation that classifies as Elevated Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_bp_ru_fe,elevatedbp_ru_fe,Elevated Blood Pressure Rural Female,% of females within rural unit of observation that classifies as Elevated Blood Pressure based on American Heart Association standards,NCD,C,D
+hhh_bp_all_fe,highbp_fe,High Blood Pressure Female,% of females within unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hhh_bp_ur_fe,highbp_ur_fe,High Blood pressure urban female,% of females within urban unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hhh_bp_ru_fe,highbp_ru_fe,high blood pressure Rural Female,% of females within rural unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hhhh_bp_all_fe,severebp_fe,Severe Blood Pressure Female,% of females within unit of observation that classifies as Severe Blood Pressure based on American Heart Association standards,NCD,C,D
+hhhh_bp_ur_fe,severebp_ur_fe,Severe Blood Pressure Urban Female,% of females within urban unit of observation that classifies as Severe Blood Pressure based on American Heart Association standards,NCD,C,D
+hhhh_bp_ru_fe,severebp_ru_fe,Severe Blood Pressure Urban Female,% of females within rural unit of observation that classifies as Severe Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_cbp_all_fe,highcuffbp_fe,High Cuff Pressure Female,% of females within unit of observation that classifies as High Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_cbp_ur_fe,highcuffbp_ur_fe,High Cuff Pressure Urban Female,% of females within urban unit of observation that classifies as High Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_cbp_ru_fe,highcuffbp_ru_fe,High Cuff Pressure Rural Female,% of females within rural unit of observation that classifies as High Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+h_cbp_all_fe,hcuffbp_fe,Healthy Cuff Pressure Female,% of females within unit of observation that classifies as Healthy Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+h_cbp_ur_fe,hcuffbp_ur_fe,Healthy Cuff Pressure Urban Female,% of females within urban unit of observation that classifies as Healthy Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+h_cbp_ru_fe,hcuffbp_ru_fe,Healthy Cuff Pressure Rural Female,% of females within rural unit of observation that classifies as Healthy Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+l_cbp_all_fe,lowcuffbp_fe,Low Cuff Pressure Female,% of females within unit of observation that classifies as Low Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+l_cbp_ur_fe,lowcuffbp_ur_fe,Low Cuff Pressure Urban Female,% of females within urban unit of observation that classifies as Low Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+l_cbp_ru_fe,lowcuffbp_ru_fe,Low Cuff Pressure Rural Female,% of females within rural unit of observation that classifies as Low Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+p_cancer_all_fe,cancer_fe,Cancer Female,% of females within unit of observation that have Cancer,NCD,D,S
+p_cancer_ur_fe,cancer_fe_urban,Cancer Urban Female,% of females within Urban unit of observation that have Cancer,NCD,D,S
+p_cancer_ru_fe,cancer_fe_rural,Cancer Rural Female,% of females within Rural unit of observation that have Cancer,NCD,D,S
+t_cancer_all_fe,treated_cancer_fe,Treated Cancer Female,% of females that have Cancer within unit of observation that have attempted treatment for Cancer,NCD,D,S
+t_cancer_ur_fe,treated_cancer_fe_urban,Treated Cancer Urban Female,% of females that have Cancer within urban unit of observation that have attempted treatment for Cancer,NCD,D,S
+t_cancer_ru_fe,treated_cancer_fe_rural,Treated Cancer Rural Female,% of females that have Cancer within rural unit of observation that have attempted treatment for Cancer,NCD,D,S
+dk_cancer_all_fe,dk_cancer_fe,Donêt Know Cancer Female,% of females within unit of observation that do not know whether they have Cancer,NCD,D,S
+dk_cancer_ur_fe,dk_cancer_fe_urban,Donêt Know Cancer Urban Female,% of females within urban unit of observation that do not know whether they have Cancer,NCD,D,S
+dk_cancer_ru_fe,dk_cancer_fe_rural,Donêt Know Cancer Rural Female,% of females within rural unit of observation that do not know whether they have Cancer,NCD,D,S
+p_asthma_all_fe,asthma_fe,Asthma Female,% of females within unit of observation that have Asthma,NCD,D,S
+p_asthma_ur_fe,asthma_fe_urban,Asthma Urban Female,% of females within Urban unit of observation that have Asthma,NCD,D,S
+p_asthma_ru_fe,asthma_fe_rural,Asthma Rural Female,% of females within Rural unit of observation that have Asthma,NCD,D,S
+t_asthma_all_fe,treated_asthma_fe,Treated Asthma Female,% of females that have Asthma within unit of observation that have attempted treatment for Asthma,NCD,D,S
+t_asthma_ur_fe,treated_asthma_fe_urban,Treated Asthma Urban Female,% of females that have Asthma within urban unit of observation that have attempted treatment for Asthma,NCD,D,S
+t_asthma_ru_fe,treated_asthma_fe_rural,Treated Asthma Rural Female,% of females that have Asthma within rural unit of observation that have attempted treatment for Asthma,NCD,D,S
+dk_asthma_all_fe,dk_asthma_fe,Donêt Know Asthma Female,% of females within unit of observation that do not know whether they have Asthma,NCD,D,S
+dk_asthma_ur_fe,dk_asthma_fe_urban,Donêt Know Asthma Urban Female,% of females within urban unit of observation that do not know whether they have Asthma,NCD,D,S
+dk_asthma_ru_fe,dk_asthma_fe_rural,Donêt Know Asthma Rural Female,% of females within rural unit of observation that do not know whether they have Asthma,NCD,D,S
+p_diabetes_all_fe,diabetes_fe,Diabetes Female,% of females within unit of observation that have Diabetes,NCD,D,S
+p_diabetes_ur_fe,diabetes_fe_urban,Diabetes Urban Female,% of females within Urban unit of observation that have Diabetes,NCD,D,S
+p_diabetes_ru_fe,diabetes_fe_rural,Diabetes Rural Female,% of females within Rural unit of observation that have Diabetes,NCD,D,S
+t_diabetes_all_fe,treated_diabetes_fe,Treated Diabetes Female,% of females that have Diabetes within unit of observation that have attempted treatment for Diabetes,NCD,D,S
+t_diabetes_ur_fe,treated_diabetes_fe_urban,Treated Diabetes Urban Female,% of females that have Diabetes within urban unit of observation that have attempted treatment for Diabetes,NCD,D,S
+t_diabetes_ru_fe,treated_diabetes_fe_rural,Treated Diabetes Rural Female,% of females that have Diabetes within rural unit of observation that have attempted treatment for Diabetes,NCD,D,S
+dk_diabetes_all_fe,dk_diabetes_fe,Donêt Know Diabetes Female,% of females within unit of observation that do not know whether they have Diabetes,NCD,D,S
+dk_diabetes_ur_fe,dk_diabetes_fe_urban,Donêt Know Diabetes Urban Female,% of females within urban unit of observation that do not know whether they have Diabetes,NCD,D,S
+dk_diabetes_ru_fe,dk_diabetes_fe_rural,Donêt Know Diabetes Rural Female,% of females within rural unit of observation that do not know whether they have Diabetes,NCD,D,S
+p_thyroid_all_fe,thyroid_fe,Thyroid Female,% of females within unit of observation that have Thyroid,NCD,D,S
+p_thyroid_ur_fe,thyroid_fe_urban,Thyroid Urban Female,% of females within Urban unit of observation that have Thyroid,NCD,D,S
+p_thyroid_ru_fe,thyroid_fe_rural,Thyroid Rural Female,% of females within Rural unit of observation that have Thyroid,NCD,D,S
+t_thyroid_all_fe,treated_thyroid_fe,Treated Thyroid Female,% of females that have Thyroid within unit of observation that have attempted treatment for Thyroid,NCD,D,S
+t_thyroid_ur_fe,treated_thyroid_fe_urban,Treated Thyroid Urban Female,% of females that have Thyroid within urban unit of observation that have attempted treatment for Thyroid,NCD,D,S
+t_thyroid_ru_fe,treated_thyroid_fe_rural,Treated Thyroid Rural Female,% of females that have Thyroid within rural unit of observation that have attempted treatment for Thyroid,NCD,D,S
+dk_thyroid,dk_thyroid,Donêt Know Thyroid Female,% of females within unit of observation that do not know whether they have Thyroid,NCD,D,S
+dk_thyroid_ur,dk_thyroid_urban,Donêt Know Thyroid Urban Female,% of females within urban unit of observation that do not know whether they have Thyroid,NCD,D,S
+dk_thyroid_ru,dk_thyroid_rural,Donêt Know Thyroid Rural Female,% of females within rural unit of observation that do not know whether they have Thyroid,NCD,D,S
+heart_all_fe,heart_fe,Heart Disease Female,% of females within unit of observation that have Heart Disease,NCD,D,S
+heart_ur_fe,heart_fe_urban,Heart Disease Urban Female,% of females within Urban unit of observation that have Heart Disease,NCD,D,S
+heart_ru_fe,heart_fe_rural,Heart Disease Rural Female,% of females within Rural unit of observation that have Heart Disease,NCD,D,S
+t_heart_all_fe,treated_heart_fe,Treated Heart Disease Female,% of females that have Heart Disease within unit of observation that have attempted treatment for Heart Disease,NCD,D,S
+t_heart_ur_fe,treated_heart_fe_urban,Treated Heart Disease Urban Female,% of females that have Heart Disease within urban unit of observation that have attempted treatment for Heart Disease,NCD,D,S
+t_heart_ru_fe,treated_heart_fe_rural,Treated Heart Disease Rural Female,% of females that have Heart Disease within rural unit of observation that have attempted treatment for Heart Disease,NCD,D,S
+dk_heart_all_fe,dk_heart_fe,Donêt Know Heart Disease Female,% of females within unit of observation that do not know whether they have Heart Disease,NCD,D,S
+dk_heart_ur_fe,dk_heart_fe_urban,Donêt Know Heart Disease Urban Female,% of females within urban unit of observation that do not know whether they have Heart Disease,NCD,D,S
+dk_heart_ru_fe,dk_heart_fe_rural,Donêt Know Heart Disease Rural Female,% of females within rural unit of observation that do not know whether they have Heart Disease,NCD,D,S
+h_glucose_all_ma,hglucose_ma,Healthy Glucose Male,% of males within unit of observation that classifies as Healthy Glucose based on American Diabetes Association standards,NCD,C,D
+h_glucose_ur_ma,hglucose_ur_ma,Healthy Glucose Urban Male,% of males within urban unit of observation that classifies as Healthy Glucose based on American Diabetes Association standards,NCD,C,D
+h_glucose_ru_ma,hglucose_ru_ma,Healthy Glucose Rural Male,% of males within rural unit of observation that classifies as Healthy Glucose based on American Diabetes Association standards,NCD,C,D
+hh_glucose_all_ma,highglucose_ma,High Glucose Male,% of males within unit of observation that classifies as High Glucose based on American Diabetes Association standards,NCD,C,D
+hh_glucose_ur_ma,highglucose_ur_ma,High Glucose Urban Male,% of males within urban unit of observation that classifies as High Glucose based on American Diabetes Association standards,NCD,C,D
+hh_glucose_ru_ma,highglucose_ru_ma,High Glucose Rural Male,% of males within rural unit of observation that classifies as High Glucose based on American Diabetes Association standards,NCD,C,D
+l_glucose_all_ma,lowglucose_ma,Low Glucose Male,% of males within unit of observation that classifies as Low Glucose based on American Diabetes Association standards,NCD,C,D
+l_glucose_ur_ma,lowglucose_ur_ma,Low Glucose Urban Male,% of males within urban unit of observation that classifies as Low Glucose based on American Diabetes Association standards,NCD,C,D
+l_glucose_ru_ma,lowglucose_ru_ma,Low Glucose Rural Male,% of males within rural unit of observation that classifies as Low Glucose based on American Diabetes Association standards,NCD,C,D
+h_bp_all_ma,hbp_ma,Healthy Blood Pressure Male,% of males within unit of observation that classifies as Healthy Blood Pressure based on American Heart Association standards,NCD,C,D
+h_bp_ur_ma,hbp_ur_ma,Healthy Blood Pressure Urban Male,% of males within urban unit of observation that classifies as Healthy Blood Pressure based on American Heart Association standards,NCD,C,D
+h_bp_ru_ma,hbp_ru_ma,Healthy Blood Pressure Rural Male,% of males within rural unit of observation that classifies as Healthy Blood Pressure based on American Heart Association standards,NCD,C,D
+l_bp_all_ma,lowbp_ma,Low Blood Pressure Male,% of males within unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+l_bp_ur_ma,lowbp_ur_ma,Low Blood Pressure Urban Male,% of males within urban unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+l_bp_ru_ma,lowbp_ru_ma,Low Blood Pressure Rural Male,% of males within rural unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_bp_all_ma,elevatedbp_ma,Elevated Blood Pressure Male,% of males within unit of observation that classifies as Elevated Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_bp_ur_ma,elevatedbp_ur_ma,Elevated Blood Pressure Urban Male,% of males within urban unit of observation that classifies as Elevated Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_bp_ru_ma,elevatedbp_ru_ma,Elevated Blood Pressure Rural Male,% of males within rural unit of observation that classifies as Elevated Blood Pressure based on American Heart Association standards,NCD,C,D
+hhh_bp_all_ma,highbp_ma,High Blood Pressure Male,% of males within unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hhh_bp_ur_ma,highbp_ur_ma,High Blood pressure urban Male,% of males within urban unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hhh_bp_ru_ma,highbp_ru_ma,high blood pressure Rural Male,% of males within rural unit of observation that classifies as High Blood Pressure based on American Heart Association standards,NCD,C,D
+hhhh_bp_all_ma,severebp_ma,Severe Blood Pressure Male,% of males within unit of observation that classifies as Severe Blood Pressure based on American Heart Association standards,NCD,C,D
+hhhh_bp_ur_ma,severebp_ur_ma,Severe Blood Pressure Urban Male,% of males within urban unit of observation that classifies as Severe Blood Pressure based on American Heart Association standards,NCD,C,D
+hhhh_bp_ru_ma,severebp_ru_ma,Severe Blood Pressure Urban Male,% of males within rural unit of observation that classifies as Severe Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_cbp_all_ma,highcuffbp_ma,High Cuff Pressure Male,% of males within unit of observation that classifies as High Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_cbp_ur_ma,highcuffbp_ur_ma,High Cuff Pressure Urban Male,% of males within urban unit of observation that classifies as High Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+hh_cbp_ru_ma,highcuffbp_ru_ma,High Cuff Pressure Rural Male,% of males within rural unit of observation that classifies as High Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+h_cbp_all_ma,hcuffbp_ma,Healthy Cuff Pressure Male,% of males within unit of observation that classifies as Healthy Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+h_cbp_ur_ma,hcuffbp_ur_ma,Healthy Cuff Pressure Urban Male,% of males within urban unit of observation that classifies as Healthy Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+h_cbp_ru_ma,hcuffbp_ru_ma,Healthy Cuff Pressure Rural Male,% of males within rural unit of observation that classifies as Healthy Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+l_cbp_all_ma,lowcuffbp_ma,Low Cuff Pressure Male,% of males within unit of observation that classifies as Low Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+l_cbp_ur_ma,lowcuffbp_ur_ma,Low Cuff Pressure Urban Male,% of males within urban unit of observation that classifies as Low Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+l_cbp_ru_ma,lowcuffbp_ru_ma,Low Cuff Pressure Rural Male,% of males within rural unit of observation that classifies as Low Cuff Blood Pressure based on American Heart Association standards,NCD,C,D
+p_cancer_all_ma,cancer_ma,Cancer Male,% of males within unit of observation that have Cancer,NCD,C,D
+p_cancer_ur_ma,cancer_ma_urban,Cancer Urban Male,% of males within Urban unit of observation that have Cancer,NCD,D,S
+p_cancer_ru_ma,cancer_ma_rural,Cancer Rural Male,% of males within Rural unit of observation that have Cancer,NCD,D,S
+t_cancer_all_ma,treated_cancer_ma,Treated Cancer Male,% of males that have Cancer within unit of observation that have attempted treatment for Cancer,NCD,D,S
+t_cancer_ur_ma,treated_cancer_ma_urban,Treated Cancer Urban Male,% of males that have Cancer within urban unit of observation that have attempted treatment for Cancer,NCD,D,S
+t_cancer_ru_ma,treated_cancer_ma_rural,Treated Cancer Rural Male,% of males that have Cancer within rural unit of observation that have attempted treatment for Cancer,NCD,D,S
+dk_cancer_all_ma,dk_cancer_ma,Donêt Know Cancer Male,% of males within unit of observation that do not know whether they have Cancer,NCD,D,S
+dk_cancer_ur_ma,dk_cancer_ma_urban,Donêt Know Cancer Urban Male,% of males within urban unit of observation that do not know whether they have Cancer,NCD,D,S
+dk_cancer_ru_ma,dk_cancer_ma_rural,Donêt Know Cancer Rural Male,% of males within rural unit of observation that do not know whether they have Cancer,NCD,D,S
+p_asthma_all_ma,asthma_ma,Asthma Male,% of males within unit of observation that have Asthma,NCD,D,S
+p_asthma_ur_ma,asthma_ma_urban,Asthma Urban Male,% of males within Urban unit of observation that have Asthma,NCD,D,S
+p_asthma_ru_ma,asthma_ma_rural,Asthma Rural Male,% of males within Rural unit of observation that have Asthma,NCD,D,S
+t_asthma_all_ma,treated_asthma_ma,Treated Asthma Male,% of males that have Asthma within unit of observation that have attempted treatment for Asthma,NCD,D,S
+t_asthma_ur_ma,treated_asthma_ma_urban,Treated Asthma Urban Male,% of males that have Asthma within urban unit of observation that have attempted treatment for Asthma,NCD,D,S
+t_asthma_ru_ma,treated_asthma_ma_rural,Treated Asthma Rural Male,% of males that have Asthma within rural unit of observation that have attempted treatment for Asthma,NCD,D,S
+dk_asthma_all_ma,dk_asthma_ma,Donêt Know Asthma Male,% of males within unit of observation that do not know whether they have Asthma,NCD,D,S
+dk_asthma_ur_ma,dk_asthma_ma_urban,Donêt Know Asthma Urban Male,% of males within urban unit of observation that do not know whether they have Asthma,NCD,D,S
+dk_asthma_ru_ma,dk_asthma_ma_rural,Donêt Know Asthma Rural Male,% of males within rural unit of observation that do not know whether they have Asthma,NCD,D,S
+p_diabetes_all_ma,diabetes_ma,Diabetes Male,% of males within unit of observation that have Diabetes,NCD,D,S
+p_diabetes_ur_ma,diabetes_ma_urban,Diabetes Urban Male,% of males within Urban unit of observation that have Diabetes,NCD,D,S
+p_diabetes_ru_ma,diabetes_ma_rural,Diabetes Rural Male,% of males within Rural unit of observation that have Diabetes,NCD,D,S
+t_diabetes_all_ma,treated_diabetes_ma,Treated Diabetes Male,% of males that have Diabetes within unit of observation that have attempted treatment for Diabetes,NCD,D,S
+t_diabetes_ur_ma,treated_diabetes_ma_urban,Treated Diabetes Urban Male,% of males that have Diabetes within urban unit of observation that have attempted treatment for Diabetes,NCD,D,S
+t_diabetes_ru_ma,treated_diabetes_ma_rural,Treated Diabetes Rural Male,% of males that have Diabetes within rural unit of observation that have attempted treatment for Diabetes,NCD,D,S
+dk_diabetes_all_ma,dk_diabetes_ma,Donêt Know Diabetes Male,% of males within unit of observation that do not know whether they have Diabetes,NCD,D,S
+dk_diabetes_ur_ma,dk_diabetes_ma_urban,Donêt Know Diabetes Urban Male,% of males within urban unit of observation that do not know whether they have Diabetes,NCD,D,S
+dk_diabetes_ru_ma,dk_diabetes_ma_rural,Donêt Know Diabetes Rural Male,% of males within rural unit of observation that do not know whether they have Diabetes,NCD,D,S
+p_thyroid_all_ma,thyroid_ma,Thyroid Male,% of males within unit of observation that have Thyroid,,D,S
+p_thyroid_ur_ma,thyroid_ma_urban,Thyroid Urban Male,% of males within Urban unit of observation that have Thyroid,,D,S
+p_thyroid_ru_ma,thyroid_ma_rural,Thyroid Rural Male,% of males within Rural unit of observation that have Thyroid,,D,S
+t_thyroid_all_ma,treated_thyroid_ma,Treated Thyroid Male,% of males that have Thyroid within unit of observation that have attempted treatment for Thyroid,,D,S
+t_thyroid_ur_ma,treated_thyroid_ma_urban,Treated Thyroid Urban Male,% of males that have Thyroid within urban unit of observation that have attempted treatment for Thyroid,,D,S
+t_thyroid_ru_ma,treated_thyroid_ma_rural,Treated Thyroid Rural Male,% of males that have Thyroid within rural unit of observation that have attempted treatment for Thyroid,,D,S
+dk_thyroid,dk_thyroid,Donêt Know Thyroid Male,% of males within unit of observation that do not know whether they have Thyroid,,D,S
+dk_thyroid_ur,dk_thyroid_urban,Donêt Know Thyroid Urban Male,% of males within urban unit of observation that do not know whether they have Thyroid,,D,S
+dk_thyroid_ru,dk_thyroid_rural,Donêt Know Thyroid Rural Male,% of males within rural unit of observation that do not know whether they have Thyroid,,D,S
+heart_all_ma,heart_ma,Heart Disease Male,% of males within unit of observation that have Heart Disease,,D,S
+heart_ur_ma,heart_ma_urban,Heart Disease Urban Male,% of males within Urban unit of observation that have Heart Disease,,D,S
+heart_ru_ma,heart_ma_rural,Heart Disease Rural Male,% of males within Rural unit of observation that have Heart Disease,,D,S
+t_heart_all_ma,treated_heart_ma,Treated Heart Disease Male,% of males that have Heart Disease within unit of observation that have attempted treatment for Heart Disease,,D,S
+t_heart_ur_ma,treated_heart_ma_urban,Treated Heart Disease Urban Male,% of males that have Heart Disease within urban unit of observation that have attempted treatment for Heart Disease,,D,S
+t_heart_ru_ma,treated_heart_ma_rural,Treated Heart Disease Rural Male,% of males that have Heart Disease within rural unit of observation that have attempted treatment for Heart Disease,,D,S
+dk_heart_all_ma,dk_heart_ma,Donêt Know Heart Disease Male,% of males within unit of observation that do not know whether they have Heart Disease,,D,S
+dk_heart_ur_ma,dk_heart_ma_urban,Donêt Know Heart Disease Urban Male,% of males within urban unit of observation that do not know whether they have Heart Disease,,D,S
+dk_heart_ru_ma,dk_heart_ma_rural,Donêt Know Heart Disease Rural Male,% of males within rural unit of observation that do not know whether they have Heart Disease,,D,S
